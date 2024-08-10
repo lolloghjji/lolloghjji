@@ -1,0 +1,832 @@
+2024-08-09T23:48:55.555Z -> Σ:0.000s, Δ:0.000s -> app -> Initializing app 
+2024-08-09T23:48:55.556Z -> Σ:0.003s, Δ:0.003s -> FAST CONNECT -> [FAST CONNECT] wss://gateway.discord.gg/?encoding=json&v=9&compress=zstd-stream 
+2024-08-09T23:48:55.580Z -> Σ:0.027s, Δ:0.024s -> app -> Finished loading third party imports 
+2024-08-09T23:48:55.586Z -> Σ:0.033s, Δ:0.006s -> Sentry -> Breadcrumb {"category":"analytics","message":"permissions_requested"} 
+2024-08-09T23:48:55.587Z -> Analytics -> permissions_requested 
+2024-08-09T23:48:55.587Z -> Σ:0.034s, Δ:0.001s -> Sentry -> Breadcrumb {"category":"analytics","message":"permissions_requested"} 
+2024-08-09T23:48:55.587Z -> Analytics -> permissions_requested 
+2024-08-09T23:48:55.588Z -> Σ:0.035s, Δ:0.001s -> Main -> Loading the Main Discord runnable 
+2024-08-09T23:48:55.589Z -> Σ:0.036s, Δ:0.001s -> DatabaseManager -> speculatively opening @account.1232630584522575950 
+2024-08-09T23:48:55.591Z -> Σ:0.038s, Δ:0.002s -> Sentry -> Initialize {"releaseChannel":"stable","isProductionChannel":true} 
+2024-08-09T23:48:55.594Z -> Σ:0.041s, Δ:0.003s -> Sentry -> Breadcrumb {"message":"App state changed to active","category":"appState"} 
+2024-08-09T23:48:55.594Z -> Σ:0.041s, Δ:0.000s -> index.native.tsx -> AppState changing from unknown to active 
+2024-08-09T23:48:55.594Z -> Σ:0.041s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:48:55.612Z -> Σ:0.059s, Δ:0.018s -> Sentry -> Breadcrumb {"category":"lifecycle","message":"App opened","data":{"openFrom":"launcher"}} 
+2024-08-09T23:48:55.612Z -> Analytics -> app_opened {"device_model":"iPhone","device_brand":"iPhone","device_product":"iPhone14,8","device_manufacturer":"Apple Inc.","device_performance_class":null,"soc_name":"ARM64_T8110","ram_size":5.51,"opened_from":"launcher","load_id":"069f0c4a-b65d-4be3-9b96-fc64a5b643b6","theme":"darker","accessibility_features":0,"rendered_locale":"en-GB","uptime_app":0,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:48:55.612Z -> Σ:0.059s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat scheduler- logging app start, checking for correctly scheduled heartbeat in 10s"} 
+2024-08-09T23:48:55.613Z -> Σ:0.060s, Δ:0.001s -> DatabaseManager -> added speculative database (1232630584522575950 → [object Object]) 
+2024-08-09T23:48:55.613Z -> Σ:0.060s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"permissions_acked"} 
+2024-08-09T23:48:55.613Z -> Analytics -> permissions_acked 
+2024-08-09T23:48:55.613Z -> Σ:0.060s, Δ:0.000s -> index.native.tsx -> Initial OTA update check metrics [] 
+2024-08-09T23:48:55.613Z -> Σ:0.060s, Δ:0.000s -> index.native.tsx -> The initial promise has resolved 
+2024-08-09T23:48:55.613Z -> Σ:0.060s, Δ:0.000s -> index.native.tsx -> No need to apply token storage fix as token already exists. 
+2024-08-09T23:48:55.613Z -> Σ:0.060s, Δ:0.000s -> index.native.tsx -> Token manager has initialized {"storageHasToken":true,"tokenManagerHasToken":true} 
+2024-08-09T23:48:55.617Z -> Σ:0.064s, Δ:0.004s -> DatabaseManager -> speculatively opening @account.1232630584522575950 
+2024-08-09T23:48:55.617Z -> Σ:0.064s, Δ:0.000s -> DatabaseManager -> active user changed (now: 1232630584522575950, was: null, was: undefined) 
+2024-08-09T23:48:55.619Z -> Σ:0.066s, Δ:0.002s -> index.native.tsx -> Flux has initialized 
+2024-08-09T23:48:55.621Z -> Σ:0.068s, Δ:0.002s -> MessageActionCreators -> Fetching messages for 1258732214053638256 between undefined and undefined. jump={"jumpType":"ANIMATED"} 
+2024-08-09T23:48:55.625Z -> Network -> Sending GET to https://discord.com/api/v9/channels/1258732214053638256/messages 
+2024-08-09T23:48:55.627Z -> Σ:0.074s, Δ:0.006s -> getInitialNavigationState -> Initial State: [{"page":"other","guildId":"1258732213583745036"},{"index":0,"routes":[{"name":"main","state":{"routes":[{"name":"tabs","state":{"routes":[{"name":"guilds","params":{"guildId":"1258732213583745036","channelId":"1258732214053638256"}}]}}]}}]}] 
+2024-08-09T23:48:55.627Z -> Σ:0.074s, Δ:0.000s -> CacheStore -> loading early cache 
+2024-08-09T23:48:55.627Z -> Σ:0.074s, Δ:0.000s -> GatewaySocket -> .connect() called, new state is WILL_RECONNECT 
+2024-08-09T23:48:55.627Z -> Σ:0.074s, Δ:0.000s -> GatewaySocket -> Setting connection state to WILL_RECONNECT 
+2024-08-09T23:48:55.627Z -> Σ:0.074s, Δ:0.000s -> GatewaySocket -> Setting connection state to CONNECTING 
+2024-08-09T23:48:55.627Z -> Σ:0.074s, Δ:0.000s -> GatewaySocket -> [CONNECT] wss://gateway.discord.gg, encoding: json, version: 9, compression: zstd-stream 
+2024-08-09T23:48:55.628Z -> Σ:0.075s, Δ:0.001s -> GatewaySocket -> [FAST CONNECT] successfully took over websocket, state: {"open":false,"gateway":"wss://gateway.discord.gg/?encoding=json&v=9&compress=zstd-stream","identify":true,"messages":0,"clientState":{"guild_versions":{}}} 
+2024-08-09T23:48:55.630Z -> Σ:0.077s, Δ:0.002s -> AppDatabaseManager -> MobileAppDatabaseManager created with 15 modules, 36 distinct actions. 
+2024-08-09T23:48:55.632Z -> Σ:0.079s, Δ:0.002s -> NetworkUtils -> Network status changed: isConnected:true type:wifi speed:undefined 
+2024-08-09T23:48:55.632Z -> Σ:0.079s, Δ:0.000s -> GatewaySocket -> Connection has reset backoff for reason: network detected online. 
+2024-08-09T23:48:55.633Z -> Σ:0.080s, Δ:0.001s -> NetworkUtils -> Network status changed: isConnected:true type:wifi speed:undefined 
+2024-08-09T23:48:55.633Z -> Σ:0.080s, Δ:0.000s -> GatewaySocket -> Connection has reset backoff for reason: network detected online. 
+2024-08-09T23:48:55.634Z -> Σ:0.081s, Δ:0.001s -> NetworkUtils -> Network status changed: isConnected:true type:wifi speed:undefined 
+2024-08-09T23:48:55.634Z -> Σ:0.081s, Δ:0.000s -> GatewaySocket -> Connection has reset backoff for reason: network detected online. 
+2024-08-09T23:48:55.634Z -> Σ:0.081s, Δ:0.000s -> NetworkUtils -> Network status changed: isConnected:true type:wifi speed:undefined 
+2024-08-09T23:48:55.634Z -> Σ:0.081s, Δ:0.000s -> GatewaySocket -> Connection has reset backoff for reason: network detected online. 
+2024-08-09T23:48:55.635Z -> Σ:0.082s, Δ:0.001s -> DatabaseManager -> discarding speculative database (1232630584522575950 → [object Object]) 
+2024-08-09T23:48:55.635Z -> Σ:0.082s, Δ:0.000s -> NetworkUtils -> Network status changed: isConnected:true type:wifi speed:undefined 
+2024-08-09T23:48:55.635Z -> Σ:0.082s, Δ:0.000s -> GatewaySocket -> Connection has reset backoff for reason: network detected online. 
+2024-08-09T23:48:55.636Z -> Σ:0.083s, Δ:0.001s -> CacheStore -> loaded 0 messages (guild: 1258732213583745036, channel: 1258732214053638256). 
+2024-08-09T23:48:55.636Z -> Σ:0.083s, Δ:0.000s -> ChannelReader -> loaded in 7.588165998458862ms (guild: null, channels: 1) 
+2024-08-09T23:48:55.636Z -> Σ:0.083s, Δ:0.000s -> UserSettingsProto -> loaded in 7.571916937828064ms (settings: 2) 
+2024-08-09T23:48:55.636Z -> Σ:0.083s, Δ:0.000s -> ReadStates -> asynchronously loaded in 7.721666932106018ms (readStates: 13) 
+2024-08-09T23:48:55.636Z -> Σ:0.083s, Δ:0.000s -> ReadStates -> asynchronously loaded in 8.056457996368408ms (userGuildSettings: 5) 
+2024-08-09T23:48:55.638Z -> Σ:0.085s, Δ:0.002s -> ChannelReader -> loaded in 1.915958046913147ms (guild: 1258732213583745036, channels: 4) 
+2024-08-09T23:48:55.638Z -> Σ:0.085s, Δ:0.000s -> CacheStore -> cache loaded in 9.997459053993225ms (channel_history 7.78600001335144ms) 
+2024-08-09T23:48:55.639Z -> Σ:0.086s, Δ:0.001s -> ChannelStore -> Early cache contained full guild channels for 1258732213583745036 
+2024-08-09T23:48:55.645Z -> Σ:0.092s, Δ:0.006s -> CacheStore -> early_cache_summary: (
+        ok: true
+        meta:
+          auth_user_id: 1232630584522575950
+          selected_guild: 1258732213583745036
+          selected_channel: 1258732214053638256
+          navigation_state: {"page":"other","guildId":"1258732213583745036"}
+          database: true
+            name: @account.1232630584522575950
+        data:
+          database:
+            private_channels: 1
+            channel_history:
+              guild: 1258732213583745036
+              channel: 1258732214053638256
+              messages: 0
+                members: 0
+                users: 0
+            initial_guild:
+              id: 1258732213583745036
+              channels: 4
+            user_settings: 2
+            read_states: 13
+            user_guild_settings: 5
+      ) 
+2024-08-09T23:48:55.645Z -> Σ:0.092s, Δ:0.000s -> CacheStore -> finished dispatching CACHE_LOADED 
+2024-08-09T23:48:55.645Z -> Σ:0.092s, Δ:0.000s -> CacheStore -> loading late lazy cache 
+2024-08-09T23:48:55.658Z -> Σ:0.105s, Δ:0.013s -> index.native.tsx -> i18n loaded 
+2024-08-09T23:48:55.660Z -> Σ:0.107s, Δ:0.002s -> Guilds -> loaded in 14.672625064849854ms (guilds: 2) 
+2024-08-09T23:48:55.660Z -> Σ:0.107s, Δ:0.000s -> GuildBasicChannels -> loaded in 14.750125050544739ms (guilds: 2, synced: 2 unsynced: 0) 
+2024-08-09T23:48:55.680Z -> Σ:0.127s, Δ:0.020s -> Sentry -> Breadcrumb {"message":"Initializing SessionHeartbeatScheduler"} 
+2024-08-09T23:48:55.680Z -> Σ:0.127s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded true, Connection State: null"} 
+2024-08-09T23:48:55.680Z -> Σ:0.127s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Start Analytics Heartbeat"} 
+2024-08-09T23:48:55.680Z -> Σ:0.127s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Received Last Heartbeat Event Timestamp. Time Until Next Heartbeat: -135504.52 seconds. Scheduling Heartbeat"} 
+2024-08-09T23:48:55.681Z -> Σ:0.128s, Δ:0.001s -> ConnectivityStatusStore -> State set to CONNECTING, with delay: 10000 
+2024-08-09T23:48:55.688Z -> Σ:0.135s, Δ:0.007s -> getInitialNavigationState -> Initial State: [{"page":"other","guildId":"1258732213583745036"},{"index":0,"routes":[{"name":"main","state":{"routes":[{"name":"tabs","state":{"routes":[{"name":"guilds","params":{"guildId":"1258732213583745036","channelId":"1258732214053638256"}}]}}]}}]}] 
+2024-08-09T23:48:55.688Z -> Σ:0.135s, Δ:0.000s -> MainNavigationLogger -> Initial Screen: main 
+2024-08-09T23:48:55.776Z -> Σ:0.223s, Δ:0.088s -> discord_protos.discord_users.v1.FrecencyUserSettings -> Loading proto 
+2024-08-09T23:48:55.780Z -> Σ:0.227s, Δ:0.004s -> AppDatabaseManager -> database has changed (was: null, now: [object Object], action: USER_SETTINGS_PROTO_UPDATE_EDIT_INFO). resetting modules. 
+2024-08-09T23:48:55.780Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/settings-proto/2 
+2024-08-09T23:48:55.821Z -> Network -> Sending GET to https://discord.com/api/v9/quests/@me 
+2024-08-09T23:48:55.824Z -> Σ:0.271s, Δ:0.044s -> Sentry -> Breadcrumb {"message":"Is mobile redesign?","data":{"usingTabsUI":true}} 
+2024-08-09T23:48:55.833Z -> Σ:0.280s, Δ:0.009s -> ConnectionStore -> Socket is not reconnecting during a new session because it is not closed 
+2024-08-09T23:48:55.833Z -> Σ:0.280s, Δ:0.000s -> LocalMessageCacheManager -> cache manager initialize 
+2024-08-09T23:48:55.858Z -> Σ:0.305s, Δ:0.025s -> LocalMessageCacheManager -> initialized with 0 messages in local cache 
+2024-08-09T23:48:55.859Z -> Σ:0.306s, Δ:0.001s -> CacheStore -> late lazy cache loaded (ok: true, took: 0.4875830411911011ms) 
+2024-08-09T23:48:55.859Z -> Σ:0.306s, Δ:0.000s -> CacheStore -> lazy_cache_summary: (
+        ok: true
+        meta:
+          auth_user_id: 1232630584522575950
+          initial_guild: 1258732213583745036
+          database: true
+            ok: true
+            name: @account.1232630584522575950
+        data:
+          database:
+            guilds: 2
+            basic_channels:
+              total: 8 (2 guilds)
+              stale: 0 (0 guilds)
+              unstale: 8
+            full_channels (guilds_with_stale_basic_channels):
+              total: 0 (0 guilds)
+      ) 
+2024-08-09T23:48:55.859Z -> Σ:0.306s, Δ:0.000s -> CacheStore -> Unpausing Dispatch Queue 
+2024-08-09T23:48:55.945Z -> Σ:0.392s, Δ:0.086s -> Sentry -> Breadcrumb {"message":"Tracking Heartbeat","data":{"initialized":1723247335945}} 
+2024-08-09T23:48:55.945Z -> Σ:0.392s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"client_heartbeat"} 
+2024-08-09T23:48:55.945Z -> Analytics -> client_heartbeat 
+2024-08-09T23:48:55.955Z -> Σ:0.402s, Δ:0.010s -> PushNotificationActionCreators -> Registering push notification token: 8cef2fb0fd037997f1e979bade3598121c0e553713e400b6fb8fecad63a28f0a, is voip:true 
+2024-08-09T23:48:55.955Z -> Network -> Sending POST to https://discord.com/api/v9/users/@me/devices 
+2024-08-09T23:48:56.002Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/settings-proto/2 with status: 200  
+2024-08-09T23:48:56.016Z -> Network -> Completed GET to https://discord.com/api/v9/quests/@me with status: 200  
+2024-08-09T23:48:56.044Z -> Network -> Completed GET to https://discord.com/api/v9/channels/1258732214053638256/messages?limit=25&preload=true with status: 200  
+2024-08-09T23:48:56.044Z -> Σ:0.491s, Δ:0.089s -> MessageActionCreators -> Fetched 0 messages for 1258732214053638256 isBefore:false isAfter:false 
+2024-08-09T23:48:56.047Z -> Σ:0.494s, Δ:0.003s -> ChannelMessages -> loadComplete: resetting state for channelId=1258732214053638256, sending.length=0 
+2024-08-09T23:48:56.054Z -> Σ:0.501s, Δ:0.007s -> LocalMessageCacheManager -> rehydrateFailedMessages with 0 messagess 
+2024-08-09T23:48:56.058Z -> Σ:0.505s, Δ:0.004s -> NetworkUtils -> Network status changed: isConnected:true type:wifi speed:undefined 
+2024-08-09T23:48:56.058Z -> Σ:0.505s, Δ:0.000s -> GatewaySocket -> Connection has reset backoff for reason: network detected online. 
+2024-08-09T23:48:56.058Z -> Σ:0.505s, Δ:0.000s -> ConnectivityStatusStore -> State set to CONNECTING, with delay: 9623 
+2024-08-09T23:48:56.102Z -> Σ:0.549s, Δ:0.044s -> GatewaySocket -> [CONNECTED] wss://gateway.discord.gg/?encoding=json&v=9&compress=zstd-stream in 475 ms 
+2024-08-09T23:48:56.102Z -> Σ:0.549s, Δ:0.000s -> ConnectionStore -> handleIdentify called {"hasToken":true} 
+2024-08-09T23:48:56.102Z -> Σ:0.549s, Δ:0.000s -> GatewaySocket -> Setting connection state to IDENTIFYING 
+2024-08-09T23:48:56.102Z -> Σ:0.549s, Δ:0.000s -> GatewaySocket -> [IDENTIFY, fast-connect] 
+2024-08-09T23:48:56.103Z -> Σ:0.550s, Δ:0.001s -> GatewaySocket -> [HELLO] via 
+gateway-prd-us-east1-c-9wgx: 0, heartbeat interval: 41250, took 476 ms 
+2024-08-09T23:48:56.141Z -> Network -> Completed POST to https://discord.com/api/v9/users/@me/devices with status: 204  
+2024-08-09T23:48:56.141Z -> Analytics -> network_action_user_register_device_token 
+2024-08-09T23:48:56.511Z -> Σ:0.958s, Δ:0.408s -> MessageActionCreators -> Fetching messages for 1258732214053638256 between undefined and undefined. jump={"jumpType":"ANIMATED"} 
+2024-08-09T23:48:56.511Z -> Network -> Sending GET to https://discord.com/api/v9/channels/1258732214053638256/messages 
+2024-08-09T23:48:56.512Z -> Σ:0.959s, Δ:0.001s -> ConnectivityStatusStore -> Loading messages:  true 
+2024-08-09T23:48:56.512Z -> Σ:0.959s, Δ:0.000s -> ConnectivityStatusStore -> State set to CONNECTING, with delay: 9169 
+2024-08-09T23:48:56.541Z -> Σ:0.988s, Δ:0.029s -> ConnectionStore -> Dispatched INITIAL_GUILD 1258732213583745036 
+2024-08-09T23:48:56.542Z -> Σ:0.989s, Δ:0.001s -> MessageActionCreators -> fetched 0 messages from local database (channel_id: 1258732214053638256, remote_fetch_completed: false) 
+2024-08-09T23:48:56.544Z -> Σ:0.991s, Δ:0.002s -> GatewaySocket -> [READY] took 917ms, as 3c27ae9587000c40845917c96bb8f5d0 
+2024-08-09T23:48:56.544Z -> Σ:0.991s, Δ:0.000s -> GatewaySocket -> 
+gateway-prd-us-east1-c-9wgx: 250.257
+|  id_created: 1.183
+|  session_lookup_time: 0.329
+|  session_lookup_finished: 0.016
+|  discord-sessions-prd-1-137: 247.891
+|  |  start_session: 171.529
+|  |  |  discord-api-rpc-f58df49f6-45g4p: 166.007
+|  |  |  |  get_user: 8.277
+|  |  |  |  get_guilds: 24.039
+|  |  |  |  user_settings_proto: 0.046
+|  |  |  |  relationships: 5.416
+|  |  |  |  friend_suggestion: 0.044
+|  |  |  |  connections: 0.101
+|  |  |  |  serialized_read_states: 0.003
+|  |  |  |  pending_payments: 0.001
+|  |  |  |  send_scheduled_deletion_message: 0.001
+|  |  |  |  sanitize_premium_perks: 0.001
+|  |  |  |  guild_join_requests: 0
+|  |  |  |  broadcaster_user_ids: 0.001
+|  |  |  |  user_guild_settings: 0.932
+|  |  |  |  serialized_private_channels: 0.001
+|  |  |  |  user_segments: 39.259
+|  |  |  |  game_invites: 0.002
+|  |  |  |  blocker_ids: 0.001
+|  |  |  |  affine_user_ids: 0.007
+|  |  |  |  experiments: 17.466
+|  |  |  |  required_action: 0.009
+|  |  |  |  authorized_ip_coro: 0
+|  |  starting_guild_connect: 0.06
+|  |  presence_started: 23.064
+|  |  guilds_started: 0.13
+|  |  guilds_connect: 52.474
+|  |  presence_connect: 0.001
+|  |  connect_finished: 53.037
+|  |  build_ready: 0.035
+|  |  clean_ready: 0.001
+|  |  optimize_ready: 0.025
+|  |  split_ready: 0.006 
+2024-08-09T23:48:56.544Z -> Σ:0.991s, Δ:0.000s -> GatewaySocket -> Setting connection state to SESSION_ESTABLISHED 
+2024-08-09T23:48:56.545Z -> Σ:0.992s, Δ:0.001s -> GatewaySocket -> Updating resume url to wss://gateway-us-east1-c.discord.gg 
+2024-08-09T23:48:56.545Z -> Σ:0.992s, Δ:0.000s -> GatewaySocket -> [READY_SUPPLEMENTAL] took 918ms 
+2024-08-09T23:48:56.545Z -> Σ:0.992s, Δ:0.000s -> GatewaySocket -> Setting connection state to SESSION_ESTABLISHED 
+2024-08-09T23:48:56.549Z -> Σ:0.996s, Δ:0.004s -> Flux -> Dispatching CONNECTION_OPEN 
+2024-08-09T23:48:56.552Z -> Σ:0.999s, Δ:0.003s -> AuthenticationStore -> handleConnectionOpen called {"tokenManagerHasToken":true,"storageHasToken":true} 
+2024-08-09T23:48:56.552Z -> Σ:0.999s, Δ:0.000s -> ChannelStore -> Restoring guild channels for 1209093095157923860 #:null 
+2024-08-09T23:48:56.552Z -> Σ:0.999s, Δ:0.000s -> ChannelStore -> Restoring guild channels for 1258732213583745036 #:4 
+2024-08-09T23:48:56.554Z -> Σ:1.001s, Δ:0.002s -> ConnectivityStatusStore -> Connection open. 
+2024-08-09T23:48:56.554Z -> Σ:1.001s, Δ:0.000s -> ConnectivityStatusStore -> State set to CONNECTING, with delay: 9127 
+2024-08-09T23:48:56.554Z -> Σ:1.001s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"review_request_eligibility_checked"} 
+2024-08-09T23:48:56.554Z -> Analytics -> review_request_eligibility_checked 
+2024-08-09T23:48:56.554Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/survey 
+2024-08-09T23:48:56.555Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/affinities/guilds 
+2024-08-09T23:48:56.557Z -> Σ:1.004s, Δ:0.003s -> MessageActionCreators -> Fetching messages for 1258732214053638256 between undefined and undefined. jump={"jumpType":"ANIMATED"} 
+2024-08-09T23:48:56.557Z -> Network -> Sending GET to https://discord.com/api/v9/channels/1258732214053638256/messages 
+2024-08-09T23:48:56.558Z -> Σ:1.005s, Δ:0.001s -> Sentry -> Breadcrumb {"category":"analytics","message":"ready_payload_received"} 
+2024-08-09T23:48:56.558Z -> Analytics -> ready_payload_received {"compressed_byte_size":44667,"uncompressed_byte_size":44667,"compression_algorithm":"zstd-stream","packing_algorithm":"json","unpack_duration_ms":1,"identify_total_server_duration_ms":250,"identify_api_duration_ms":171,"identify_guilds_duration_ms":52,"num_guilds":1,"num_guild_channels":0,"num_guild_category_channels":0,"duration_ms_since_identify_start":-1722314825288.4783,"duration_ms_since_connection_start":-1722314824813.4783,"duration_ms_since_emit_start":1722314825744.4783,"is_reconnect":false,"is_fast_connect":true,"did_force_clear_guild_hashes":false,"identify_uncompressed_byte_size":0,"identify_compressed_byte_size":0,"had_cache_at_startup":true,"used_cache_at_startup":true,"cpu_core_count":6,"accessibility_features":256,"rendered_locale":"en-GB","uptime_app":0,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:48:56.575Z -> Σ:1.022s, Δ:0.017s -> discord_protos.discord_users.v1.FrecencyUserSettings -> Loading proto 
+2024-08-09T23:48:56.575Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/settings-proto/2 
+2024-08-09T23:48:56.579Z -> Σ:1.026s, Δ:0.004s -> Sentry -> Breadcrumb {"category":"analytics","message":"channel_opened"} 
+2024-08-09T23:48:56.579Z -> Analytics -> channel_opened 
+2024-08-09T23:48:56.580Z -> Σ:1.027s, Δ:0.001s -> Sentry -> Breadcrumb {"category":"analytics","message":"guild_viewed"} 
+2024-08-09T23:48:56.580Z -> Analytics -> guild_viewed 
+2024-08-09T23:48:56.585Z -> Σ:1.032s, Δ:0.005s -> MessageActionCreators -> fetched 0 messages from local database (channel_id: 1258732214053638256, remote_fetch_completed: false) 
+2024-08-09T23:48:56.738Z -> Network -> Completed GET to https://discord.com/api/v9/channels/1258732214053638256/messages?limit=25 with status: 200  
+2024-08-09T23:48:56.738Z -> Σ:1.185s, Δ:0.153s -> MessageActionCreators -> Fetched 0 messages for 1258732214053638256 isBefore:false isAfter:false 
+2024-08-09T23:48:56.739Z -> Σ:1.186s, Δ:0.001s -> ChannelMessages -> loadComplete: resetting state for channelId=1258732214053638256, sending.length=0 
+2024-08-09T23:48:56.739Z -> Σ:1.186s, Δ:0.000s -> ConnectivityStatusStore -> Loading messages:  false 
+2024-08-09T23:48:56.739Z -> Σ:1.186s, Δ:0.000s -> ConnectivityStatusStore -> State set to ONLINE, with delay: 0 
+2024-08-09T23:48:56.792Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/survey?disable_auto_seen=true with status: 200  
+2024-08-09T23:48:56.792Z -> Analytics -> network_action_user_survey_fetch 
+2024-08-09T23:48:56.832Z -> Σ:1.279s, Δ:0.093s -> Sentry -> Breadcrumb {"category":"analytics","message":"app_ui_viewed"} 
+2024-08-09T23:48:56.832Z -> Analytics -> app_ui_viewed {"load_id":"069f0c4a-b65d-4be3-9b96-fc64a5b643b6","duration_ms_since_app_opened":1568,"screen_name":"unknownn","has_cached_data":true,"manifest":"\"93c07ebe59a25194f4319b6aa7aef65a\"","device_model":"iPhone","device_brand":"iPhone","device_product":"iPhone14,8","device_manufacturer":"Apple Inc.","device_performance_class":null,"soc_name":"ARM64_T8110","ram_size":5.51,"duration_ms_since_required_js_bundle_loaded":373,"duration_ms_since_required_js_bundle_parsed":245,"theme":"darker","client_performance_memory":103153.359375,"cpu_core_count":6,"accessibility_features":256,"rendered_locale":"en-GB","uptime_app":1,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:48:56.837Z -> Network -> Completed GET to https://discord.com/api/v9/channels/1258732214053638256/messages?limit=25 with status: 200  
+2024-08-09T23:48:56.838Z -> Σ:1.285s, Δ:0.006s -> MessageActionCreators -> Fetched 0 messages for 1258732214053638256 isBefore:false isAfter:false 
+2024-08-09T23:48:56.838Z -> Σ:1.285s, Δ:0.000s -> ChannelMessages -> loadComplete: resetting state for channelId=1258732214053638256, sending.length=0 
+2024-08-09T23:48:56.848Z -> Σ:1.295s, Δ:0.010s -> EntityVersionsManager -> requesting deleted guild entities (id: 1258732213583745036, name: chickenchaser0817's server) 
+2024-08-09T23:48:56.848Z -> Σ:1.295s, Δ:0.000s -> GuildEmojis -> asynchronously loaded in 0.11825001239776611ms (guilds: 0) 
+2024-08-09T23:48:56.849Z -> Σ:1.296s, Δ:0.001s -> GuildStickers -> asynchronously loaded in 1.136667013168335ms (guilds: 0) 
+2024-08-09T23:48:56.874Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/settings-proto/2 with status: 200  
+2024-08-09T23:48:56.918Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/affinities/guilds with status: 200  
+2024-08-09T23:48:57.115Z -> Σ:1.562s, Δ:0.266s -> EntityVersionsManager -> received deleted guild entities (id: 1258732213583745036, name: chickenchaser0817's server) 
+2024-08-09T23:48:57.349Z -> Σ:1.796s, Δ:0.234s -> Sentry -> Breadcrumb {"category":"analytics","message":"app_ui_viewed2"} 
+2024-08-09T23:48:57.350Z -> Analytics -> app_ui_viewed2 {"device_model":"iPhone","device_brand":"iPhone","device_product":"iPhone14,8","device_manufacturer":"Apple Inc.","device_performance_class":null,"soc_name":"ARM64_T8110","ram_size":5.51,"time_load_index_start":292,"time_load_index_end":325,"time_begin_fast_connect_start":325,"time_begin_fast_connect_end":325,"time_load_imports_start":292,"time_load_imports_end":325,"time_init_start":325,"time_init_end":417,"time_load_storage_start":326,"time_load_storage_end":350,"time_parse_storage_start":350,"time_parse_storage_end":350,"time_load_mini_cache_start":364,"time_load_mini_cache_end":382,"time_fetch_initial_guild_start":365,"time_fetch_initial_guild_end":375,"time_load_cached_messages_start":365,"time_load_cached_messages_end":373,"time_render_app_start":421,"time_render_app_effect_start":570,"time_render_messages_end":549,"time_render_messages_with_cache_end":null,"time_render_latest_messages_end":790,"time_first_row_generator_start":549,"time_first_row_generator_end":549,"time_initial_guild_start":1244,"time_initial_guild_end":1278,"time_load_lazy_cache_start":595,"time_load_lazy_cache_end":674,"time_fetch_lazy_cache_start":382,"time_fetch_lazy_cache_end":397,"time_parse_lazy_cache_start":null,"time_parse_lazy_cache_end":null,"time_fetch_stale_channels_start":397,"time_fetch_stale_channels_end":397,"time_deserialize_cache_start":596,"time_deserialize_cache_end":596,"time_dispatch_lazy_cache_start":596,"time_dispatch_lazy_cache_end":596,"time_parse_ready_start":1280,"time_parse_ready_end":1281,"time_ready_start":1282,"time_ready_end":1295,"time_hydrate_ready_start":1282,"time_hydrate_ready_end":1282,"time_dispatch_ready_start":1286,"time_dispatch_ready_end":1295,"time_parse_ready_supplemental_start":1282,"time_parse_ready_supplemental_end":1282,"time_ready_supplemental_start":1295,"time_ready_supplemental_end":1299,"time_hydrate_ready_supplemental_start":1295,"time_hydrate_ready_supplemental_end":1295,"time_dispatch_ready_supplemental_start":1295,"time_dispatch_ready_supplemental_end":1299,"time_fetch_messages_start":358,"time_fetch_messages_end":781,"time_dispatch_messages_start":781,"time_dispatch_messages_end":790,"time_load_fast_connect_native_module_start":325,"time_load_fast_connect_native_module_end":325,"identify_total_server_duration_ms":250,"identify_api_duration_ms":171,"identify_guilds_duration_ms":52,"ready_compressed_byte_size":44667,"ready_uncompressed_byte_size":44667,"identify_compressed_byte_size":0,"identify_uncompressed_byte_size":0,"ready_compression_algorithm":"zstd-stream","ready_packing_algorithm":"json","ready_unpack_duration_ms":1,"is_reconnect":false,"is_fast_connect":true,"did_force_clear_guild_hashes":false,"num_guilds":1,"num_changed_guild_channels":0,"had_cache_at_startup":true,"used_cache_at_startup":true,"was_authenticated":true,"did_background_app":false,"interstitial":null,"message_cache_missing_reason":"no-cache","message_cache_age_seconds":null,"message_cache_count":null,"message_cache_having_count":null,"message_cache_missing_count":null,"message_render_full_count":null,"message_render_cached_count":null,"message_render_has_more_after":null,"duration_major_js_imports":33,"cache_num_guilds":2,"cache_num_private_channels":1,"cache_num_basic_channels":8,"cache_num_basic_channels_stale":0,"cache_num_full_channels":0,"cache_num_full_channel_guilds":0,"num_imports_at_load_index_end":216,"num_imports_at_init_end":539,"num_imports_at_load_mini_cache_end":533,"num_imports_at_render_app_start":560,"num_imports_at_render_app_effect_start":1374,"num_imports_at_render_messages_end":1225,"num_imports_at_render_messages_with_cache_end":null,"num_imports_at_render_latest_messages_end":1545,"num_imports_at_load_lazy_cache_start":1375,"num_imports_at_load_lazy_cache_end":1461,"num_imports_at_ready_start":1577,"num_imports_at_ready_end":1629,"num_imports_at_ready_supplemental_start":1629,"num_imports_at_ready_supplemental_end":1638,"duration_imports_at_load_index_start":2,"duration_imports_at_load_index_end":35,"duration_imports_at_init_end":85,"duration_imports_at_load_mini_cache_end":63,"duration_imports_at_render_app_start":88,"duration_imports_at_render_app_effect_start":136,"duration_imports_at_render_messages_end":130,"duration_imports_at_render_messages_with_cache_end":0,"duration_imports_at_render_latest_messages_end":142,"duration_imports_at_load_lazy_cache_start":136,"duration_imports_at_load_lazy_cache_end":140,"duration_imports_at_ready_start":143,"duration_imports_at_ready_end":147,"duration_imports_at_ready_supplemental_start":147,"duration_imports_at_ready_supplemental_end":147,"duration_imports_at_polyfills_end":4,"duration_imports_at_sentry_end":11,"duration_imports_at_fast_connect_start":35,"duration_imports_at_fast_connect_end":35,"duration_imports_at_app_state_change_start":38,"duration_imports_at_app_state_change_end":54,"duration_imports_at_load_mini_cache_start":57,"duration_imports_at_load_storage_start":36,"duration_imports_at_load_storage_end":54,"load_id":"069f0c4a-b65d-4be3-9b96-fc64a5b643b6","screen_name":"redesign-guilds","has_cached_data":true,"theme":"darker","client_performance_memory":103153.359375,"cpu_core_count":6,"accessibility_features":256,"rendered_locale":"en-GB","uptime_app":1,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:48:57.515Z -> Σ:1.962s, Δ:0.166s -> EntityVersionsManager -> requesting deleted guild entities (id: 1209093095157923860, name: Hyew) 
+2024-08-09T23:48:57.798Z -> Σ:2.245s, Δ:0.283s -> EntityVersionsManager -> received deleted guild entities (id: 1209093095157923860, name: Hyew) 
+2024-08-09T23:48:57.915Z -> Σ:2.361s, Δ:0.116s -> EntityVersionsManager -> requesting deleted guild entities (id: 1258732213583745036, name: chickenchaser0817's server) 
+2024-08-09T23:48:58.065Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:48:58.181Z -> Σ:2.628s, Δ:0.267s -> EntityVersionsManager -> received deleted guild entities (id: 1258732213583745036, name: chickenchaser0817's server) 
+2024-08-09T23:48:58.585Z -> Σ:3.032s, Δ:0.404s -> GuildBasicChannels -> scheduling basic_channel optimstic writes (guilds: 0) 
+2024-08-09T23:48:58.588Z -> Σ:3.035s, Δ:0.003s -> BackgroundSync -> Starting Background Sync 
+2024-08-09T23:48:58.588Z -> Network -> Sending GET to https://cdn.discordapp.com/changelogs/config_1.json?x=9 
+2024-08-09T23:48:58.597Z -> Σ:3.044s, Δ:0.009s -> Sentry -> Breadcrumb {"category":"analytics","message":"ios_metric_kit_payload_received"} 
+2024-08-09T23:48:58.597Z -> Analytics -> ios_metric_kit_payload_received 
+2024-08-09T23:48:58.598Z -> Σ:3.045s, Δ:0.001s -> Sentry -> Breadcrumb {"category":"analytics","message":"notification_permission_status"} 
+2024-08-09T23:48:58.598Z -> Analytics -> notification_permission_status 
+2024-08-09T23:48:58.599Z -> Network -> Sending POST to https://discord.com/api/v9/messages-log/private-channels/get 
+2024-08-09T23:48:58.599Z -> Σ:3.046s, Δ:0.001s -> BackgroundSync -> Guild Message Background Syncing for  ["1209093096051318876","1258732214053638256"] 
+2024-08-09T23:48:58.600Z -> Network -> Sending POST to https://discord.com/api/v9/messages-log/guild-channels/get 
+2024-08-09T23:48:59.388Z -> Σ:3.835s, Δ:0.789s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:48:59.388Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:48:59.413Z -> Network -> Completed POST to https://discord.com/api/v9/messages-log/private-channels/get with status: 200  
+2024-08-09T23:48:59.414Z -> Σ:3.861s, Δ:0.026s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:48:59.414Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:48:59.439Z -> Network -> Completed GET to https://cdn.discordapp.com/changelogs/config_1.json?x=9 with status: 200  
+2024-08-09T23:48:59.528Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:48:59.775Z -> Network -> Completed POST to https://discord.com/api/v9/messages-log/guild-channels/get with status: 200  
+2024-08-09T23:48:59.775Z -> Σ:4.222s, Δ:0.361s -> Sentry -> Breadcrumb {"category":"analytics","message":"background_sync_completed"} 
+2024-08-09T23:48:59.775Z -> Analytics -> background_sync_completed 
+2024-08-09T23:48:59.775Z -> Σ:4.222s, Δ:0.000s -> BackgroundSync -> Finished Background Sync {"time_finish_fetch_private_channel_messages":816,"num_private_channel_messages":0,"size_private_channel_messages":70,"time_finish_fetch_guild_channel_messages":1177,"num_guild_channel_messages":0,"size_guild_channel_messages":185,"client_performance_cpu":11.47727369264026,"client_performance_memory":139489.5,"cpu_core_count":6,"accessibility_features":256,"rendered_locale":"en-GB","uptime_app":4,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:49:00.115Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:00.310Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:02.283Z -> Σ:6.730s, Δ:2.508s -> Sentry -> Breadcrumb {"category":"analytics","message":"redesign_nav_bar_clicked"} 
+2024-08-09T23:49:02.284Z -> Analytics -> redesign_nav_bar_clicked 
+2024-08-09T23:49:02.364Z -> Network -> Sending GET to https://discord.com/api/v9/user-profile-effects 
+2024-08-09T23:49:02.364Z -> Network -> Sending GET to https://discord.com/api/v9/users/1232630584522575950/profile 
+2024-08-09T23:49:02.368Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/affinities/users 
+2024-08-09T23:49:02.368Z -> Analytics -> impression_user_you_screen 
+2024-08-09T23:49:02.385Z -> Σ:6.832s, Δ:0.102s -> Sentry -> Breadcrumb {"category":"analytics","message":"redesign_nav_bar_rendered"} 
+2024-08-09T23:49:02.385Z -> Analytics -> redesign_nav_bar_rendered 
+2024-08-09T23:49:02.385Z -> Σ:6.832s, Δ:0.000s -> TabsPerformanceTracker -> First navigation to you took {"layoutEffectDuration":80.20241701602936,"effectDuration":83.86662495136261,"layoutUIDuration":90.4201250076294,"uiDuration":101.07062494754791} 
+2024-08-09T23:49:02.608Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/affinities/users with status: 200  
+2024-08-09T23:49:02.626Z -> Network -> Completed GET to https://discord.com/api/v9/users/1232630584522575950/profile?with_mutual_guilds=false&with_mutual_friends=false&with_mutual_friends_count=false with status: 200  
+2024-08-09T23:49:02.653Z -> Network -> Completed GET to https://discord.com/api/v9/user-profile-effects with status: 200  
+2024-08-09T23:49:03.881Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:04.139Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:05.147Z -> Network -> Sending GET to https://latency.discord.media/rtc 
+2024-08-09T23:49:05.691Z -> Network -> Completed GET to https://latency.discord.media/rtc with status: 200  
+2024-08-09T23:49:05.831Z -> Σ:10.278s, Δ:3.446s -> RTCLatencyTestManager -> RTC region latency test completed, ranked regions are:  ["rotterdam","frankfurt","milan","stockholm","madrid"] 
+2024-08-09T23:49:06.715Z -> Σ:11.162s, Δ:0.884s -> Sentry -> Breadcrumb {"category":"analytics","message":"redesign_nav_bar_clicked"} 
+2024-08-09T23:49:06.716Z -> Analytics -> redesign_nav_bar_clicked 
+2024-08-09T23:49:06.779Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/notification-center/items 
+2024-08-09T23:49:06.797Z -> Σ:11.244s, Δ:0.082s -> Sentry -> Breadcrumb {"category":"analytics","message":"redesign_nav_bar_rendered"} 
+2024-08-09T23:49:06.797Z -> Analytics -> redesign_nav_bar_rendered 
+2024-08-09T23:49:06.797Z -> Σ:11.244s, Δ:0.000s -> TabsPerformanceTracker -> First navigation to notifications took {"layoutEffectDuration":61.706249952316284,"effectDuration":63.979042053222656,"layoutUIDuration":80.47058296203613,"uiDuration":80.53795802593231} 
+2024-08-09T23:49:07.035Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/notification-center/items?limit=8&with_mentions=true&roles_filter=true&everyone_filter=true with status: 200  
+2024-08-09T23:49:07.036Z -> Analytics -> network_action_notification_center_page_fetch 
+2024-08-09T23:49:07.060Z -> Σ:11.507s, Δ:0.263s -> Sentry -> Breadcrumb {"category":"analytics","message":"notification_center_loaded"} 
+2024-08-09T23:49:07.060Z -> Analytics -> notification_center_loaded 
+2024-08-09T23:49:07.065Z -> Analytics -> impression_notification_center_landing 
+2024-08-09T23:49:08.297Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:08.483Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:08.579Z -> Σ:13.026s, Δ:1.519s -> FetchBlockedDomain -> Fetching blocked domain list 
+2024-08-09T23:49:08.579Z -> Network -> Sending GET to https://cdn.discordapp.com/bad-domains/current_revision.txt 
+2024-08-09T23:49:08.637Z -> Network -> Completed GET to https://cdn.discordapp.com/bad-domains/current_revision.txt with status: 200  
+2024-08-09T23:49:08.638Z -> Σ:13.085s, Δ:0.059s -> FetchBlockedDomain -> Server revision: 546, Client revision: 543 
+2024-08-09T23:49:08.638Z -> Network -> Sending GET to https://discord.com/bad-hash-delta 
+2024-08-09T23:49:08.744Z -> Network -> Completed GET to https://discord.com/bad-hash-delta?revision=543 with status: 200  
+2024-08-09T23:49:08.745Z -> Σ:13.192s, Δ:0.107s -> FetchBlockedDomain -> Retrieved delta, domains added: 9, domains removed: 0 
+2024-08-09T23:49:08.745Z -> Σ:13.192s, Δ:0.000s -> FetchBlockedDomain -> Blocked domains list length: 36312 before update 
+2024-08-09T23:49:08.777Z -> Σ:13.224s, Δ:0.032s -> FetchBlockedDomain -> Delta applied successfully 
+2024-08-09T23:49:08.777Z -> Σ:13.224s, Δ:0.000s -> FetchBlockedDomain -> Blocked domains list length: 36321 after update 
+2024-08-09T23:49:10.080Z -> Network -> Sending POST to https://discord.com/api/v9/users/@me/2/1271616237696188416/ack 
+2024-08-09T23:49:10.311Z -> Network -> Completed POST to https://discord.com/api/v9/users/@me/2/1271616237696188416/ack with status: 200  
+2024-08-09T23:49:11.331Z -> Σ:15.778s, Δ:2.554s -> Sentry -> Breadcrumb {"category":"analytics","message":"redesign_nav_bar_clicked"} 
+2024-08-09T23:49:11.332Z -> Analytics -> redesign_nav_bar_clicked 
+2024-08-09T23:49:11.381Z -> Network -> Sending POST to https://discord.com/api/v9/users/@me/notification-center/items/bulk-ack 
+2024-08-09T23:49:11.580Z -> Σ:16.027s, Δ:0.249s -> ChannelStore -> hydrating guild (guild: @me, trace: getMutableGuildChannelsForGuild) 
+2024-08-09T23:49:11.581Z -> Σ:16.028s, Δ:0.001s -> ChannelReader -> synchronously loaded in 0.3132500648498535ms (guild: @me, channels: 0) 
+2024-08-09T23:49:11.581Z -> Σ:16.028s, Δ:0.000s -> ChannelStore -> hydration complete (guild: @me, channels: 0, guilds_loaded: 1) 
+2024-08-09T23:49:11.583Z -> Σ:16.030s, Δ:0.002s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:49:11.583Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:49:11.583Z -> Σ:16.030s, Δ:0.000s -> Routing/Utils -> transitionTo - Transitioning to /channels/@me/1258731545963790411 
+2024-08-09T23:49:11.585Z -> Σ:16.032s, Δ:0.002s -> RouteUtils -> UpdateSelectedChannelListener -> no voice route present in {"pathname":"/channels/@me/1258731545963790411","navigationReplace":true,"search":"","hash":"","key":"4di3sw"} {"guildId":"@me","channelId":"1258731545963790411","jumpType":"ANIMATED","preserveDrawerState":false}  
+2024-08-09T23:49:11.588Z -> Σ:16.035s, Δ:0.003s -> MessageActionCreators -> Fetching messages for 1258731545963790411 between undefined and undefined. jump={"jumpType":"ANIMATED"} 
+2024-08-09T23:49:11.588Z -> Network -> Sending GET to https://discord.com/api/v9/channels/1258731545963790411/messages 
+2024-08-09T23:49:11.590Z -> Σ:16.037s, Δ:0.002s -> ConnectivityStatusStore -> Loading messages:  true 
+2024-08-09T23:49:11.590Z -> Σ:16.037s, Δ:0.000s -> ConnectivityStatusStore -> State set to CONNECTING, with delay: 10000 
+2024-08-09T23:49:11.592Z -> Σ:16.039s, Δ:0.002s -> Router -> Navigated to: /channels/@me/1258731545963790411 
+2024-08-09T23:49:11.652Z -> Σ:16.099s, Δ:0.060s -> Sentry -> Breadcrumb {"category":"analytics","message":"channel_opened"} 
+2024-08-09T23:49:11.652Z -> Analytics -> channel_opened 
+2024-08-09T23:49:11.655Z -> Σ:16.102s, Δ:0.003s -> MessagePreviewManager -> fetching local previews (via: database, guild_id: null) 
+2024-08-09T23:49:11.667Z -> Σ:16.114s, Δ:0.012s -> ChannelStore -> hydrating guild (guild: , trace: getMutableGuildChannelsForGuild) 
+2024-08-09T23:49:11.667Z -> Σ:16.114s, Δ:0.000s -> ChannelReader -> synchronously loaded in 0.05116701126098633ms (guild: , channels: 0) 
+2024-08-09T23:49:11.667Z -> Σ:16.114s, Δ:0.000s -> ChannelStore -> hydration complete (guild: , channels: 0, guilds_loaded: 2) 
+2024-08-09T23:49:11.683Z -> Network -> Completed POST to https://discord.com/api/v9/users/@me/notification-center/items/bulk-ack with status: 400 and body: {"message": "Invalid Form Body", "code": 50035, "errors": {"item_ids": {"_errors": [{"code": "BASE_TYPE_REQUIRED", "message": "This field is required"}]}}} 
+2024-08-09T23:49:11.687Z -> Σ:16.134s, Δ:0.020s -> MessageActionCreators -> fetched 3 messages from local database (channel_id: 1258731545963790411, remote_fetch_completed: false) 
+2024-08-09T23:49:11.698Z -> Σ:16.145s, Δ:0.011s -> MessagePreviewStore -> adding local previews (guildId: null, messages: 1) 
+2024-08-09T23:49:11.951Z -> Network -> Completed GET to https://discord.com/api/v9/channels/1258731545963790411/messages?limit=25 with status: 200  
+2024-08-09T23:49:11.951Z -> Σ:16.398s, Δ:0.253s -> MessageActionCreators -> Fetched 3 messages for 1258731545963790411 isBefore:false isAfter:false 
+2024-08-09T23:49:11.955Z -> Σ:16.402s, Δ:0.004s -> ChannelMessages -> loadComplete: resetting state for channelId=1258731545963790411, sending.length=0 
+2024-08-09T23:49:11.956Z -> Σ:16.403s, Δ:0.001s -> Sentry -> Breadcrumb {"category":"analytics","message":"invite_opened"} 
+2024-08-09T23:49:11.956Z -> Analytics -> invite_opened 
+2024-08-09T23:49:11.956Z -> Network -> Sending GET to https://discord.com/api/v9/invites/WmfbEjBh 
+2024-08-09T23:49:11.958Z -> Σ:16.405s, Δ:0.002s -> ConnectivityStatusStore -> Loading messages:  false 
+2024-08-09T23:49:11.958Z -> Σ:16.405s, Δ:0.000s -> ConnectivityStatusStore -> State set to ONLINE, with delay: 0 
+2024-08-09T23:49:11.982Z -> Network -> Sending GET to https://discord.com/api/v9/users/371013429827207168/profile 
+2024-08-09T23:49:11.983Z -> Σ:16.430s, Δ:0.025s -> LocalMessageCacheManager -> rehydrateFailedMessages with 0 messagess 
+2024-08-09T23:49:12.211Z -> Network -> Completed GET to https://discord.com/api/v9/invites/WmfbEjBh?with_counts=true&with_expiration=true with status: 404 and body: {"message": "Unknown Invite", "code": 10006} 
+2024-08-09T23:49:12.212Z -> Analytics -> network_action_invite_resolve 
+2024-08-09T23:49:12.230Z -> Network -> Completed GET to https://discord.com/api/v9/users/371013429827207168/profile?with_mutual_guilds=true&with_mutual_friends=false&with_mutual_friends_count=false with status: 200  
+2024-08-09T23:49:12.747Z -> Σ:17.194s, Δ:0.764s -> Sentry -> Breadcrumb {"category":"analytics","message":"redesign_nav_bar_clicked"} 
+2024-08-09T23:49:12.747Z -> Analytics -> redesign_nav_bar_clicked 
+2024-08-09T23:49:12.895Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:13.089Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:14.595Z -> Network -> Sending POST to https://discord.com/api/v9/channels/1258731545963790411/messages/1258732228519657554/ack 
+2024-08-09T23:49:14.820Z -> Network -> Completed POST to https://discord.com/api/v9/channels/1258731545963790411/messages/1258732228519657554/ack with status: 200  
+2024-08-09T23:49:15.179Z -> Σ:19.626s, Δ:2.432s -> Sentry -> Breadcrumb {"category":"analytics","message":"redesign_nav_bar_clicked"} 
+2024-08-09T23:49:15.180Z -> Analytics -> redesign_nav_bar_clicked 
+2024-08-09T23:49:16.329Z -> Σ:20.776s, Δ:1.150s -> Sentry -> Breadcrumb {"category":"analytics","message":"guild_clicked"} 
+2024-08-09T23:49:16.329Z -> Analytics -> guild_clicked 
+2024-08-09T23:49:16.332Z -> Σ:20.779s, Δ:0.003s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:49:16.333Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:49:16.333Z -> Σ:20.780s, Δ:0.001s -> Routing/Utils -> transitionTo - Transitioning to /channels/1258732213583745036/1258732214053638256 
+2024-08-09T23:49:16.336Z -> Σ:20.783s, Δ:0.003s -> RouteUtils -> UpdateSelectedChannelListener -> no voice route present in {"pathname":"/channels/1258732213583745036/1258732214053638256","navigationReplace":true,"search":"","hash":"","key":"wy80tl"} {"guildId":"1258732213583745036","channelId":"1258732214053638256","jumpType":"ANIMATED","preserveDrawerState":false}  
+2024-08-09T23:49:16.344Z -> Σ:20.791s, Δ:0.008s -> Router -> Navigated to: /channels/1258732213583745036/1258732214053638256 
+2024-08-09T23:49:16.388Z -> Σ:20.835s, Δ:0.044s -> Sentry -> Breadcrumb {"category":"analytics","message":"channel_opened"} 
+2024-08-09T23:49:16.388Z -> Analytics -> channel_opened 
+2024-08-09T23:49:16.388Z -> Σ:20.835s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"guild_viewed"} 
+2024-08-09T23:49:16.388Z -> Analytics -> guild_viewed 
+2024-08-09T23:49:17.545Z -> Σ:21.992s, Δ:1.157s -> Sentry -> Breadcrumb {"category":"analytics","message":"guild_clicked"} 
+2024-08-09T23:49:17.545Z -> Analytics -> guild_clicked 
+2024-08-09T23:49:17.546Z -> Σ:21.993s, Δ:0.001s -> ChannelStore -> hydrating guild (guild: 1209093095157923860, trace: getMutableGuildChannelsForGuild) 
+2024-08-09T23:49:17.547Z -> Σ:21.994s, Δ:0.001s -> ChannelReader -> synchronously loaded in 0.6414999961853027ms (guild: 1209093095157923860, channels: 4) 
+2024-08-09T23:49:17.547Z -> Σ:21.994s, Δ:0.000s -> ChannelStore -> hydration complete (guild: 1209093095157923860, channels: 4, guilds_loaded: 3) 
+2024-08-09T23:49:17.549Z -> Σ:21.996s, Δ:0.002s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:49:17.549Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:49:17.550Z -> Σ:21.997s, Δ:0.001s -> Routing/Utils -> transitionTo - Transitioning to /channels/1209093095157923860/1209093096051318876 
+2024-08-09T23:49:17.551Z -> Σ:21.998s, Δ:0.001s -> RouteUtils -> UpdateSelectedChannelListener -> no voice route present in {"pathname":"/channels/1209093095157923860/1209093096051318876","navigationReplace":true,"search":"","hash":"","key":"r6pr7r"} {"guildId":"1209093095157923860","channelId":"1209093096051318876","jumpType":"ANIMATED","preserveDrawerState":false}  
+2024-08-09T23:49:17.555Z -> Σ:22.002s, Δ:0.004s -> MessageActionCreators -> Fetching messages for 1209093096051318876 between undefined and undefined. jump={"jumpType":"ANIMATED"} 
+2024-08-09T23:49:17.555Z -> Network -> Sending GET to https://discord.com/api/v9/channels/1209093096051318876/messages 
+2024-08-09T23:49:17.559Z -> Σ:22.006s, Δ:0.004s -> ConnectivityStatusStore -> Loading messages:  true 
+2024-08-09T23:49:17.559Z -> Σ:22.006s, Δ:0.000s -> ConnectivityStatusStore -> State set to CONNECTING, with delay: 10000 
+2024-08-09T23:49:17.563Z -> Σ:22.010s, Δ:0.004s -> Router -> Navigated to: /channels/1209093095157923860/1209093096051318876 
+2024-08-09T23:49:17.604Z -> Σ:22.051s, Δ:0.041s -> Sentry -> Breadcrumb {"category":"analytics","message":"channel_opened"} 
+2024-08-09T23:49:17.604Z -> Analytics -> channel_opened 
+2024-08-09T23:49:17.605Z -> Σ:22.052s, Δ:0.001s -> Sentry -> Breadcrumb {"category":"analytics","message":"guild_viewed"} 
+2024-08-09T23:49:17.605Z -> Analytics -> guild_viewed 
+2024-08-09T23:49:17.634Z -> Σ:22.081s, Δ:0.029s -> MessageActionCreators -> fetched 25 messages from local database (channel_id: 1209093096051318876, remote_fetch_completed: false) 
+2024-08-09T23:49:17.927Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:17.991Z -> Network -> Completed GET to https://discord.com/api/v9/channels/1209093096051318876/messages?limit=25 with status: 200  
+2024-08-09T23:49:17.992Z -> Σ:22.439s, Δ:0.358s -> MessageActionCreators -> Fetched 25 messages for 1209093096051318876 isBefore:false isAfter:false 
+2024-08-09T23:49:18.009Z -> Σ:22.456s, Δ:0.017s -> ChannelMessages -> loadComplete: resetting state for channelId=1209093096051318876, sending.length=0 
+2024-08-09T23:49:18.012Z -> Σ:22.459s, Δ:0.003s -> ConnectivityStatusStore -> Loading messages:  false 
+2024-08-09T23:49:18.012Z -> Σ:22.459s, Δ:0.000s -> ConnectivityStatusStore -> State set to ONLINE, with delay: 0 
+2024-08-09T23:49:18.041Z -> Σ:22.488s, Δ:0.029s -> LocalMessageCacheManager -> rehydrateFailedMessages with 0 messagess 
+2024-08-09T23:49:18.144Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:19.348Z -> Network -> Sending POST to https://discord.com/api/v9/channels/1258732214053638256/messages/1258732299407724705/ack 
+2024-08-09T23:49:19.527Z -> Network -> Completed POST to https://discord.com/api/v9/channels/1258732214053638256/messages/1258732299407724705/ack with status: 200  
+2024-08-09T23:49:20.559Z -> Network -> Sending POST to https://discord.com/api/v9/channels/1209093096051318876/messages/1241077057107132540/ack 
+2024-08-09T23:49:20.756Z -> Network -> Completed POST to https://discord.com/api/v9/channels/1209093096051318876/messages/1241077057107132540/ack with status: 200  
+2024-08-09T23:49:21.938Z -> Σ:26.385s, Δ:3.897s -> Routing/Utils -> transitionTo - Transitioning to /channels/1209093095157923860/1209093096051318876 
+2024-08-09T23:49:21.940Z -> Σ:26.387s, Δ:0.002s -> RouteUtils -> UpdateSelectedChannelListener -> no voice route present in {"pathname":"/channels/1209093095157923860/1209093096051318876","search":"","hash":"","key":"oza8jz"} {"guildId":"1209093095157923860","channelId":"1209093096051318876","jumpType":"ANIMATED","preserveDrawerState":false}  
+2024-08-09T23:49:21.947Z -> Σ:26.394s, Δ:0.007s -> Router -> Navigated to: /channels/1209093095157923860/1209093096051318876 
+2024-08-09T23:49:23.834Z -> Σ:28.281s, Δ:1.887s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:49:23.835Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:49:23.866Z -> Σ:28.313s, Δ:0.032s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:49:23.866Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:49:25.576Z -> Σ:30.023s, Δ:1.710s -> Sentry -> Breadcrumb {"category":"analytics","message":"guild_clicked"} 
+2024-08-09T23:49:25.576Z -> Analytics -> guild_clicked 
+2024-08-09T23:49:25.578Z -> Σ:30.025s, Δ:0.002s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:49:25.579Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:49:25.579Z -> Σ:30.026s, Δ:0.001s -> Routing/Utils -> transitionTo - Transitioning to /channels/1258732213583745036/1258732214053638256 
+2024-08-09T23:49:25.581Z -> Σ:30.028s, Δ:0.002s -> RouteUtils -> UpdateSelectedChannelListener -> no voice route present in {"pathname":"/channels/1258732213583745036/1258732214053638256","navigationReplace":true,"search":"","hash":"","key":"isuotp"} {"guildId":"1258732213583745036","channelId":"1258732214053638256","jumpType":"ANIMATED","preserveDrawerState":false}  
+2024-08-09T23:49:25.589Z -> Σ:30.036s, Δ:0.008s -> Router -> Navigated to: /channels/1258732213583745036/1258732214053638256 
+2024-08-09T23:49:25.635Z -> Σ:30.082s, Δ:0.046s -> Sentry -> Breadcrumb {"category":"analytics","message":"channel_opened"} 
+2024-08-09T23:49:25.635Z -> Analytics -> channel_opened 
+2024-08-09T23:49:25.635Z -> Σ:30.082s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"guild_viewed"} 
+2024-08-09T23:49:25.635Z -> Analytics -> guild_viewed 
+2024-08-09T23:49:26.594Z -> Σ:31.041s, Δ:0.959s -> Sentry -> Breadcrumb {"category":"analytics","message":"nav_drawer_opened"} 
+2024-08-09T23:49:26.594Z -> Analytics -> nav_drawer_opened 
+2024-08-09T23:49:26.595Z -> Σ:31.042s, Δ:0.001s -> Routing/Utils -> transitionTo - Transitioning to /channels/@me/1258731545963790411 
+2024-08-09T23:49:26.597Z -> Σ:31.044s, Δ:0.002s -> RouteUtils -> UpdateSelectedChannelListener -> no voice route present in {"pathname":"/channels/@me/1258731545963790411","navigationReplace":true,"search":"","hash":"","key":"49555p"} {"guildId":"@me","channelId":"1258731545963790411","jumpType":"ANIMATED","preserveDrawerState":false}  
+2024-08-09T23:49:26.606Z -> Σ:31.053s, Δ:0.009s -> Router -> Navigated to: /channels/@me/1258731545963790411 
+2024-08-09T23:49:26.654Z -> Σ:31.101s, Δ:0.048s -> Sentry -> Breadcrumb {"category":"analytics","message":"channel_opened"} 
+2024-08-09T23:49:26.654Z -> Analytics -> channel_opened 
+2024-08-09T23:49:27.175Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:27.366Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:30.427Z -> Σ:34.873s, Δ:3.772s -> Sentry -> Breadcrumb {"category":"analytics","message":"message_composer_opened"} 
+2024-08-09T23:49:30.428Z -> Analytics -> message_composer_opened 
+2024-08-09T23:49:30.448Z -> Σ:34.895s, Δ:0.022s -> Sentry -> Breadcrumb {"category":"analytics","message":"activity_cards_viewed"} 
+2024-08-09T23:49:30.448Z -> Analytics -> activity_cards_viewed 
+2024-08-09T23:49:30.497Z -> Σ:34.944s, Δ:0.049s -> Sentry -> Breadcrumb {"category":"analytics","message":"message_composer_opened"} 
+2024-08-09T23:49:30.497Z -> Analytics -> message_composer_opened 
+2024-08-09T23:49:31.956Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:32.144Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:32.896Z -> Σ:37.343s, Δ:2.399s -> Sentry -> Breadcrumb {"category":"analytics","message":"open_popout"} 
+2024-08-09T23:49:32.896Z -> Analytics -> open_popout 
+2024-08-09T23:49:32.932Z -> Σ:37.379s, Δ:0.036s -> Sentry -> Breadcrumb {"category":"analytics","message":"message_composer_opened"} 
+2024-08-09T23:49:32.932Z -> Analytics -> message_composer_opened 
+2024-08-09T23:49:34.422Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:34.691Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:34.834Z -> Σ:39.281s, Δ:1.902s -> Sentry -> Breadcrumb {"category":"analytics","message":"message_composer_opened"} 
+2024-08-09T23:49:34.834Z -> Analytics -> message_composer_opened 
+2024-08-09T23:49:35.922Z -> Σ:40.369s, Δ:1.088s -> Sentry -> Breadcrumb {"category":"analytics","message":"friend_add_viewed"} 
+2024-08-09T23:49:35.923Z -> Analytics -> friend_add_viewed 
+2024-08-09T23:49:36.338Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:36.405Z -> Network -> Sending PATCH to https://discord.com/api/v9/users/@me/guilds/settings 
+2024-08-09T23:49:36.511Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:36.640Z -> Network -> Completed PATCH to https://discord.com/api/v9/users/@me/guilds/settings with status: 200  
+2024-08-09T23:49:38.067Z -> Σ:42.514s, Δ:2.145s -> Sentry -> Breadcrumb {"category":"analytics","message":"friend_add_viewed"} 
+2024-08-09T23:49:38.067Z -> Analytics -> friend_add_viewed 
+2024-08-09T23:49:38.067Z -> Σ:42.514s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"friend_add_viewed"} 
+2024-08-09T23:49:38.067Z -> Analytics -> friend_add_viewed 
+2024-08-09T23:49:39.588Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:39.802Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:41.350Z -> Analytics -> impression_contact_sync_start 
+2024-08-09T23:49:41.375Z -> Σ:45.822s, Δ:3.308s -> Sentry -> Breadcrumb {"category":"analytics","message":"relationship_sync_flow"} 
+2024-08-09T23:49:41.375Z -> Analytics -> relationship_sync_flow 
+2024-08-09T23:49:42.870Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:43.865Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:44.853Z -> Σ:49.300s, Δ:3.478s -> Sentry -> Breadcrumb {"category":"analytics","message":"relationship_sync_flow"} 
+2024-08-09T23:49:44.853Z -> Analytics -> relationship_sync_flow 
+2024-08-09T23:49:44.881Z -> Σ:49.328s, Δ:0.028s -> Sentry -> Breadcrumb {"category":"analytics","message":"relationship_sync_flow"} 
+2024-08-09T23:49:44.881Z -> Analytics -> relationship_sync_flow 
+2024-08-09T23:49:46.370Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:46.563Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:47.802Z -> Σ:52.249s, Δ:2.921s -> index.native.tsx -> Bundle Event: bundle downloaded for false 
+2024-08-09T23:49:47.809Z -> Σ:52.256s, Δ:0.007s -> index.native.tsx -> OTA update check metrics [{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/web/images/storm_upsell_banner_art.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":99755,"statusCode":200,"durationSeconds":0.4878619909286499},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/pl.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":654467,"statusCode":200,"durationSeconds":0.6255959272384644},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/da.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":612415,"statusCode":200,"durationSeconds":0.7425180673599243},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/hu.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":671689,"statusCode":200,"durationSeconds":0.8836209774017334},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/el.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":921064,"statusCode":200,"durationSeconds":1.1968679428100586},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/tr.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":625042,"statusCode":200,"durationSeconds":1.2054699659347534},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/fi.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":635782,"statusCode":200,"durationSeconds":1.4552499055862427},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/ja.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":733707,"statusCode":200,"durationSeconds":1.9056190252304077},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/ko.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":653857,"statusCode":200,"durationSeconds":2.0312420129776},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/es-419.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":635051,"statusCode":200,"durationSeconds":2.1645050048828125},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/sv-SE.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":617205,"statusCode":200,"durationSeconds":2.2773709297180176},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/it.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":629397,"statusCode":200,"durationSeconds":2.778509020805359},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/es-ES.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":636798,"statusCode":200,"durationSeconds":3.038736939430237},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/zh-CN.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":580220,"statusCode":200,"durationSeconds":3.1505080461502075},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/uk.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":876352,"statusCode":200,"durationSeconds":3.465911030769348},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/nl.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":624122,"statusCode":200,"durationSeconds":3.513047933578491},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/images/storm_vines.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":3857552,"statusCode":200,"durationSeconds":46.87735402584076},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/main.jsbundle","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":4489671,"statusCode":200,"durationSeconds":48.687389969825745},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/ru.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":876301,"statusCode":200,"durationSeconds":48.69681489467621},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/pt-BR.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":622842,"statusCode":200,"durationSeconds":48.702761054039},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/images/butterfly_confetti.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":5446800,"statusCode":200,"durationSeconds":49.30309295654297},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/fr.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":655810,"statusCode":200,"durationSeconds":49.37297296524048},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/ro.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":647106,"statusCode":200,"durationSeconds":49.54815602302551},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/images/vine.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":343043,"statusCode":200,"durationSeconds":49.631060004234314},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/hr.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":632095,"statusCode":200,"durationSeconds":49.83560001850128},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/hi.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":1042578,"statusCode":200,"durationSeconds":50.11252403259277},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/cs.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":641492,"statusCode":200,"durationSeconds":50.48094999790192},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/web/images/storm_upsell_banner.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":216894,"statusCode":200,"durationSeconds":50.484350085258484},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/de.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":642536,"statusCode":200,"durationSeconds":50.582802057266235},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/vi.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":712404,"statusCode":200,"durationSeconds":50.7291659116745},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/zh-TW.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":583602,"statusCode":200,"durationSeconds":50.83945906162262},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/en-GB.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":584638,"statusCode":200,"durationSeconds":50.956072092056274},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/bg.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":866164,"statusCode":200,"durationSeconds":51.129969000816345},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/no.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":605343,"statusCode":200,"durationSeconds":51.32666301727295},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/images/wumpus_with_headset.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":14285,"statusCode":200,"durationSeconds":51.330747961997986},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/th.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":1031545,"statusCode":200,"durationSeconds":51.598098039627075},{"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/lt.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":638111,"statusCode":200,"durationSeconds":51.722468972206116},{"error":null,"bytesReceived":35444404,"type":"OtaCheckAttempt","durationSeconds":52.407382011413574,"result":"success"}] 
+2024-08-09T23:49:47.810Z -> Σ:52.257s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/web/images/storm_upsell_banner_art.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":99755,"statusCode":200,"durationSeconds":0.4878619909286499} 
+2024-08-09T23:49:47.810Z -> Σ:52.257s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.810Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.811Z -> Σ:52.258s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/pl.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":654467,"statusCode":200,"durationSeconds":0.6255959272384644} 
+2024-08-09T23:49:47.811Z -> Σ:52.258s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.811Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.811Z -> Σ:52.258s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/da.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":612415,"statusCode":200,"durationSeconds":0.7425180673599243} 
+2024-08-09T23:49:47.811Z -> Σ:52.258s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.812Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.812Z -> Σ:52.259s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/hu.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":671689,"statusCode":200,"durationSeconds":0.8836209774017334} 
+2024-08-09T23:49:47.812Z -> Σ:52.259s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.812Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.812Z -> Σ:52.259s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/el.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":921064,"statusCode":200,"durationSeconds":1.1968679428100586} 
+2024-08-09T23:49:47.812Z -> Σ:52.259s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.813Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.813Z -> Σ:52.260s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/tr.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":625042,"statusCode":200,"durationSeconds":1.2054699659347534} 
+2024-08-09T23:49:47.813Z -> Σ:52.260s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.813Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.813Z -> Σ:52.260s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/fi.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":635782,"statusCode":200,"durationSeconds":1.4552499055862427} 
+2024-08-09T23:49:47.813Z -> Σ:52.260s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.813Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.814Z -> Σ:52.261s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/ja.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":733707,"statusCode":200,"durationSeconds":1.9056190252304077} 
+2024-08-09T23:49:47.814Z -> Σ:52.261s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.814Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.815Z -> Σ:52.262s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/ko.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":653857,"statusCode":200,"durationSeconds":2.0312420129776} 
+2024-08-09T23:49:47.815Z -> Σ:52.262s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.815Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.815Z -> Σ:52.262s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/es-419.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":635051,"statusCode":200,"durationSeconds":2.1645050048828125} 
+2024-08-09T23:49:47.815Z -> Σ:52.262s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.815Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.815Z -> Σ:52.262s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/sv-SE.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":617205,"statusCode":200,"durationSeconds":2.2773709297180176} 
+2024-08-09T23:49:47.815Z -> Σ:52.262s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.816Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.816Z -> Σ:52.263s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/it.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":629397,"statusCode":200,"durationSeconds":2.778509020805359} 
+2024-08-09T23:49:47.816Z -> Σ:52.263s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.816Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.816Z -> Σ:52.263s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/es-ES.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":636798,"statusCode":200,"durationSeconds":3.038736939430237} 
+2024-08-09T23:49:47.816Z -> Σ:52.263s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.816Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.816Z -> Σ:52.263s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/zh-CN.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":580220,"statusCode":200,"durationSeconds":3.1505080461502075} 
+2024-08-09T23:49:47.816Z -> Σ:52.263s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.816Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.817Z -> Σ:52.264s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/uk.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":876352,"statusCode":200,"durationSeconds":3.465911030769348} 
+2024-08-09T23:49:47.817Z -> Σ:52.264s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.817Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.817Z -> Σ:52.264s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/nl.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":624122,"statusCode":200,"durationSeconds":3.513047933578491} 
+2024-08-09T23:49:47.817Z -> Σ:52.264s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.817Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.817Z -> Σ:52.264s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/images/storm_vines.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":3857552,"statusCode":200,"durationSeconds":46.87735402584076} 
+2024-08-09T23:49:47.817Z -> Σ:52.264s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.817Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.817Z -> Σ:52.264s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/main.jsbundle","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":4489671,"statusCode":200,"durationSeconds":48.687389969825745} 
+2024-08-09T23:49:47.817Z -> Σ:52.264s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.818Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.818Z -> Σ:52.265s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/ru.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":876301,"statusCode":200,"durationSeconds":48.69681489467621} 
+2024-08-09T23:49:47.818Z -> Σ:52.265s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.818Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.818Z -> Σ:52.265s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/pt-BR.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":622842,"statusCode":200,"durationSeconds":48.702761054039} 
+2024-08-09T23:49:47.818Z -> Σ:52.265s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.818Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.818Z -> Σ:52.265s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/images/butterfly_confetti.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":5446800,"statusCode":200,"durationSeconds":49.30309295654297} 
+2024-08-09T23:49:47.818Z -> Σ:52.265s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.818Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.819Z -> Σ:52.265s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/fr.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":655810,"statusCode":200,"durationSeconds":49.37297296524048} 
+2024-08-09T23:49:47.819Z -> Σ:52.266s, Δ:0.001s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.819Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.819Z -> Σ:52.266s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/ro.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":647106,"statusCode":200,"durationSeconds":49.54815602302551} 
+2024-08-09T23:49:47.819Z -> Σ:52.266s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.819Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.819Z -> Σ:52.266s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/images/vine.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":343043,"statusCode":200,"durationSeconds":49.631060004234314} 
+2024-08-09T23:49:47.819Z -> Σ:52.266s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.820Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.820Z -> Σ:52.267s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/hr.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":632095,"statusCode":200,"durationSeconds":49.83560001850128} 
+2024-08-09T23:49:47.820Z -> Σ:52.267s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.820Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.820Z -> Σ:52.267s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/hi.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":1042578,"statusCode":200,"durationSeconds":50.11252403259277} 
+2024-08-09T23:49:47.820Z -> Σ:52.267s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.820Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.820Z -> Σ:52.267s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/cs.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":641492,"statusCode":200,"durationSeconds":50.48094999790192} 
+2024-08-09T23:49:47.820Z -> Σ:52.267s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.820Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.821Z -> Σ:52.268s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/web/images/storm_upsell_banner.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":216894,"statusCode":200,"durationSeconds":50.484350085258484} 
+2024-08-09T23:49:47.821Z -> Σ:52.268s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.821Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.821Z -> Σ:52.268s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/de.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":642536,"statusCode":200,"durationSeconds":50.582802057266235} 
+2024-08-09T23:49:47.821Z -> Σ:52.268s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.821Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.821Z -> Σ:52.268s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/vi.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":712404,"statusCode":200,"durationSeconds":50.7291659116745} 
+2024-08-09T23:49:47.821Z -> Σ:52.268s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.821Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.821Z -> Σ:52.268s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/zh-TW.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":583602,"statusCode":200,"durationSeconds":50.83945906162262} 
+2024-08-09T23:49:47.821Z -> Σ:52.268s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.821Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/en-GB.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":584638,"statusCode":200,"durationSeconds":50.956072092056274} 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.822Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/bg.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":866164,"statusCode":200,"durationSeconds":51.129969000816345} 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.822Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/no.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":605343,"statusCode":200,"durationSeconds":51.32666301727295} 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.822Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/modules/collectibles/images/wumpus_with_headset.png","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":14285,"statusCode":200,"durationSeconds":51.330747961997986} 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.822Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/th.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":1031545,"statusCode":200,"durationSeconds":51.598098039627075} 
+2024-08-09T23:49:47.822Z -> Σ:52.269s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.823Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.823Z -> Σ:52.270s, Δ:0.001s -> BundleUpdater -> OTA asset download attempt {"url":"https:/discord.com/assets/ios/55e592a40aafc524640b94a83d346a2b787a7799/assets/i18n/messages/lt.jsona","error":null,"result":"success","type":"OtaAssetDownloadAttempt","bytesReceived":638111,"statusCode":200,"durationSeconds":51.722468972206116} 
+2024-08-09T23:49:47.823Z -> Σ:52.270s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_asset_download_attempt"} 
+2024-08-09T23:49:47.823Z -> Analytics -> mobile_ota_asset_download_attempt 
+2024-08-09T23:49:47.823Z -> Σ:52.270s, Δ:0.000s -> BundleUpdater -> OTA check attempt {"error":null,"bytesReceived":35444404,"type":"OtaCheckAttempt","durationSeconds":52.407382011413574,"result":"success"} 
+2024-08-09T23:49:47.823Z -> Σ:52.270s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"mobile_ota_check_attempt"} 
+2024-08-09T23:49:47.823Z -> Analytics -> mobile_ota_check_attempt 
+2024-08-09T23:49:47.952Z -> Σ:52.399s, Δ:0.129s -> Sentry -> Breadcrumb {"category":"analytics","message":"message_composer_opened"} 
+2024-08-09T23:49:47.952Z -> Analytics -> message_composer_opened 
+2024-08-09T23:49:49.337Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:50.027Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:51.888Z -> Σ:56.335s, Δ:3.936s -> Sentry -> Breadcrumb {"category":"analytics","message":"redesign_nav_bar_clicked"} 
+2024-08-09T23:49:51.888Z -> Analytics -> redesign_nav_bar_clicked 
+2024-08-09T23:49:51.947Z -> Σ:56.394s, Δ:0.059s -> Sentry -> Breadcrumb {"category":"analytics","message":"activity_cards_viewed"} 
+2024-08-09T23:49:51.947Z -> Analytics -> activity_cards_viewed 
+2024-08-09T23:49:53.805Z -> Σ:58.252s, Δ:1.858s -> Sentry -> Breadcrumb {"category":"analytics","message":"you_tab_settings_icon_press"} 
+2024-08-09T23:49:53.805Z -> Analytics -> you_tab_settings_icon_press 
+2024-08-09T23:49:53.838Z -> Network -> Sending GET to https://discord.com/__development/build_overrides?version=240.0 
+2024-08-09T23:49:53.856Z -> Σ:58.303s, Δ:0.051s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:49:53.856Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:49:53.903Z -> Network -> Completed GET to https://discord.com/__development/build_overrides?version=240.0 with status: 200  
+2024-08-09T23:49:55.385Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:55.559Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:49:56.290Z -> Σ:60.736s, Δ:2.433s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:49:56.290Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:49:56.333Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/consent 
+2024-08-09T23:49:56.334Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/harvest 
+2024-08-09T23:49:56.513Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/harvest with status: 200  
+2024-08-09T23:49:56.518Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/consent with status: 200  
+2024-08-09T23:49:57.852Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:49:58.132Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:50:23.899Z -> Network -> Sending GET to https://discord.com/api/v9/safety-hub/@me 
+2024-08-09T23:50:24.141Z -> Network -> Completed GET to https://discord.com/api/v9/safety-hub/@me with status: 200  
+2024-08-09T23:50:27.085Z -> Σ:91.531s, Δ:30.795s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:50:27.085Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:50:27.121Z -> Network -> Sending GET to https://discord.com/api/v9/oauth2/tokens 
+2024-08-09T23:50:27.420Z -> Network -> Completed GET to https://discord.com/api/v9/oauth2/tokens with status: 200  
+2024-08-09T23:50:28.630Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:50:28.953Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:50:31.800Z -> Σ:96.247s, Δ:4.716s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:50:31.801Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:50:31.859Z -> Network -> Sending GET to https://discord.com/api/v9/users/@me/mfa/webauthn/credentials 
+2024-08-09T23:50:32.073Z -> Network -> Completed GET to https://discord.com/api/v9/users/@me/mfa/webauthn/credentials with status: 200  
+2024-08-09T23:50:33.346Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:50:33.562Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:50:40.313Z -> Σ:104.760s, Δ:8.513s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:50:40.314Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:50:41.877Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:50:42.164Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:50:50.328Z -> Σ:114.775s, Δ:10.015s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:50:50.329Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:50:51.908Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:50:52.123Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:50:54.294Z -> Network -> Sending POST to https://discord.com/api/v9/users/@me/mfa/webauthn/credentials 
+2024-08-09T23:50:54.562Z -> Network -> Completed POST to https://discord.com/api/v9/users/@me/mfa/webauthn/credentials with status: 401 and body: {"message":"Two-factor is required for this operation","code":60003,"mfa":{"ticket":"MTIzMjYzMDU4NDUyMjU3NTk1MA.HK1Wcy.yfK-Z0Act45YsGB4YvVm4SrL_OHZO666ZuixII","methods":[{"type":"password"}]}}
+ 
+2024-08-09T23:50:59.022Z -> Σ:123.468s, Δ:8.693s -> Sentry -> Breadcrumb {"message":"App state changed to inactive","category":"appState"} 
+2024-08-09T23:50:59.022Z -> Σ:123.469s, Δ:0.001s -> index.native.tsx -> AppState changing from active to inactive 
+2024-08-09T23:50:59.022Z -> Σ:123.469s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:50:59.024Z -> Σ:123.471s, Δ:0.002s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded false, Connection State: null"} 
+2024-08-09T23:50:59.024Z -> Σ:123.471s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Stopping Analytics Heartbeat"} 
+2024-08-09T23:50:59.024Z -> Σ:123.471s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat correctly scheduled. Clearing 10s check timeout"} 
+2024-08-09T23:50:59.024Z -> Σ:123.471s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"app_background"} 
+2024-08-09T23:50:59.024Z -> Analytics -> app_background 
+2024-08-09T23:50:59.024Z -> Σ:123.471s, Δ:0.000s -> Flux -> Dispatching WRITE_CACHES 
+2024-08-09T23:50:59.025Z -> Σ:123.472s, Δ:0.001s -> GuildBasicChannels -> Starting to write all basic channels 
+2024-08-09T23:50:59.025Z -> Σ:123.472s, Δ:0.000s -> GuildBasicChannels -> 0 basic_channel guilds submitted (took: 0.019625067710876465ms, skipped: 2 guilds) 
+2024-08-09T23:50:59.028Z -> Σ:123.475s, Δ:0.003s -> CacheStore -> Writing cache now 
+2024-08-09T23:51:00.530Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:51:00.800Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:51:00.945Z -> Σ:125.392s, Δ:1.917s -> Sentry -> Breadcrumb {"message":"App state changed to active","category":"appState"} 
+2024-08-09T23:51:00.945Z -> Σ:125.392s, Δ:0.000s -> index.native.tsx -> AppState changing from inactive to active 
+2024-08-09T23:51:00.945Z -> Σ:125.392s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:51:00.946Z -> Σ:125.393s, Δ:0.001s -> ConnectivityStatusStore -> App state updated:  active 
+2024-08-09T23:51:00.946Z -> Σ:125.393s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded true, Connection State: null"} 
+2024-08-09T23:51:00.946Z -> Σ:125.393s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Start Analytics Heartbeat"} 
+2024-08-09T23:51:00.946Z -> Σ:125.393s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"lifecycle","message":"App opened","data":{"openFrom":"launcher"}} 
+2024-08-09T23:51:00.946Z -> Analytics -> app_opened {"device_model":"iPhone","device_brand":"iPhone","device_product":"iPhone14,8","device_manufacturer":"Apple Inc.","device_performance_class":null,"soc_name":"ARM64_T8110","ram_size":5.51,"opened_from":"launcher","load_id":"069f0c4a-b65d-4be3-9b96-fc64a5b643b6","theme":"darker","client_performance_cpu":2.3953618848383447,"client_performance_memory":177393.78125,"cpu_core_count":6,"accessibility_features":256,"rendered_locale":"en-GB","uptime_app":125,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:51:00.946Z -> Σ:125.393s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat scheduler- logging app start, checking for correctly scheduled heartbeat in 10s"} 
+2024-08-09T23:51:00.947Z -> Σ:125.394s, Δ:0.001s -> Sentry -> Breadcrumb {"message":"Received Last Heartbeat Event Timestamp. Time Until Next Heartbeat: 775.004 seconds. Scheduling Heartbeat"} 
+2024-08-09T23:51:00.950Z -> Σ:125.397s, Δ:0.003s -> MessageActionCreators -> Fetched 3 messages from the cache after foregrounding. 0 are new 
+2024-08-09T23:51:08.276Z -> Network -> Sending POST to https://discord.com/api/v9/mfa/finish 
+2024-08-09T23:51:08.891Z -> Network -> Completed POST to https://discord.com/api/v9/mfa/finish with status: 400 and body: {"message": "Password does not match", "code": 60008} 
+2024-08-09T23:51:27.338Z -> Σ:151.785s, Δ:26.388s -> Sentry -> Breadcrumb {"category":"analytics","message":"user_account_email_change_attempted"} 
+2024-08-09T23:51:27.339Z -> Analytics -> user_account_email_change_attempted 
+2024-08-09T23:51:27.388Z -> Analytics -> impression_user_account_email_change_send_code 
+2024-08-09T23:51:28.919Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:51:29.168Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:51:35.553Z -> Σ:160.000s, Δ:8.215s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:51:35.553Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:51:35.590Z -> Network -> Sending GET to https://discord.com/api/v9/auth/sessions 
+2024-08-09T23:51:35.924Z -> Network -> Completed GET to https://discord.com/api/v9/auth/sessions with status: 200  
+2024-08-09T23:51:37.100Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:51:37.254Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:51:47.814Z -> Network -> Sending POST to https://discord.com/api/v9/metrics/v2 
+2024-08-09T23:51:48.217Z -> Network -> Completed POST to https://discord.com/api/v9/metrics/v2 with status: 204  
+2024-08-09T23:51:50.052Z -> Σ:174.499s, Δ:14.499s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:51:50.052Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:51:50.098Z -> Σ:174.545s, Δ:0.046s -> Sentry -> Breadcrumb {"category":"analytics","message":"dismissible_content_dismissed"} 
+2024-08-09T23:51:50.099Z -> Analytics -> dismissible_content_dismissed 
+2024-08-09T23:51:50.099Z -> Network -> Sending GET to https://discord.com/api/v9/family-center/@me 
+2024-08-09T23:51:50.127Z -> Network -> Sending GET to https://discord.com/api/v9/auth/location-metadata 
+2024-08-09T23:51:50.362Z -> Network -> Completed GET to https://discord.com/api/v9/family-center/@me with status: 200  
+2024-08-09T23:51:50.397Z -> Σ:174.844s, Δ:0.299s -> Sentry -> Breadcrumb {"category":"analytics","message":"family_center_viewed"} 
+2024-08-09T23:51:50.398Z -> Analytics -> family_center_viewed 
+2024-08-09T23:51:50.400Z -> Network -> Completed GET to https://discord.com/api/v9/auth/location-metadata with status: 200  
+2024-08-09T23:51:51.613Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:51:51.845Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:51:56.032Z -> Σ:180.479s, Δ:5.635s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:51:56.032Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:51:57.578Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:51:57.734Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:51:58.597Z -> Σ:183.044s, Δ:2.565s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:51:58.598Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:52:00.144Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:52:00.396Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:52:10.911Z -> Σ:195.358s, Δ:12.314s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:52:10.912Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:52:12.459Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:52:12.684Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:52:14.394Z -> Σ:198.841s, Δ:3.483s -> Sentry -> Breadcrumb {"category":"analytics","message":"local_settings_updated"} 
+2024-08-09T23:52:14.395Z -> Analytics -> local_settings_updated 
+2024-08-09T23:52:14.401Z -> Σ:198.848s, Δ:0.007s -> discord_protos.discord_users.v1.PreloadedUserSettings -> Updating notifications with delay 0 
+2024-08-09T23:52:14.414Z -> Σ:198.861s, Δ:0.013s -> discord_protos.discord_users.v1.PreloadedUserSettings -> Scheduling save from markDirty 
+2024-08-09T23:52:14.423Z -> Σ:198.870s, Δ:0.009s -> discord_protos.discord_users.v1.PreloadedUserSettings -> Persisting proto 
+2024-08-09T23:52:14.424Z -> Network -> Sending PATCH to https://discord.com/api/v9/users/@me/settings-proto/1 
+2024-08-09T23:52:14.733Z -> Network -> Completed PATCH to https://discord.com/api/v9/users/@me/settings-proto/1 with status: 200  
+2024-08-09T23:52:15.924Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:52:16.235Z -> Σ:200.682s, Δ:1.812s -> Sentry -> Breadcrumb {"category":"analytics","message":"notification_settings_clicked"} 
+2024-08-09T23:52:16.235Z -> Analytics -> notification_settings_clicked 
+2024-08-09T23:52:16.274Z -> Σ:200.721s, Δ:0.039s -> Sentry -> Breadcrumb {"message":"App state changed to inactive","category":"appState"} 
+2024-08-09T23:52:16.274Z -> Σ:200.721s, Δ:0.000s -> index.native.tsx -> AppState changing from active to inactive 
+2024-08-09T23:52:16.274Z -> Σ:200.721s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:52:16.275Z -> Σ:200.722s, Δ:0.001s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded false, Connection State: null"} 
+2024-08-09T23:52:16.276Z -> Σ:200.723s, Δ:0.001s -> Sentry -> Breadcrumb {"message":"Stopping Analytics Heartbeat"} 
+2024-08-09T23:52:16.276Z -> Σ:200.723s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat correctly scheduled. Clearing 10s check timeout"} 
+2024-08-09T23:52:16.276Z -> Σ:200.723s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"app_background"} 
+2024-08-09T23:52:16.276Z -> Analytics -> app_background 
+2024-08-09T23:52:16.276Z -> Σ:200.723s, Δ:0.000s -> Flux -> Dispatching WRITE_CACHES 
+2024-08-09T23:52:16.277Z -> Σ:200.724s, Δ:0.001s -> GuildBasicChannels -> Starting to write all basic channels 
+2024-08-09T23:52:16.277Z -> Σ:200.724s, Δ:0.000s -> GuildBasicChannels -> 0 basic_channel guilds submitted (took: 0.021957993507385254ms, skipped: 2 guilds) 
+2024-08-09T23:52:16.280Z -> Σ:200.727s, Δ:0.003s -> CacheStore -> Writing cache now 
+2024-08-09T23:52:16.282Z -> Σ:200.729s, Δ:0.002s -> KvBackgroundManager -> performing cleanup (deep: true) 
+2024-08-09T23:52:16.370Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:52:17.084Z -> Σ:201.531s, Δ:0.802s -> Sentry -> Breadcrumb {"message":"App state changed to background","category":"appState"} 
+2024-08-09T23:52:17.084Z -> Σ:201.531s, Δ:0.000s -> index.native.tsx -> AppState changing from inactive to background 
+2024-08-09T23:52:17.084Z -> Σ:201.531s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:52:17.084Z -> Σ:201.531s, Δ:0.000s -> GatewaySocket -> Closing connection, current state is SESSION_ESTABLISHED 
+2024-08-09T23:52:17.084Z -> Σ:201.531s, Δ:0.000s -> GatewaySocket -> Setting connection state to CLOSED 
+2024-08-09T23:52:17.084Z -> Σ:201.531s, Δ:0.000s -> ConnectivityStatusStore -> App state updated:  background 
+2024-08-09T23:52:17.084Z -> Σ:201.531s, Δ:0.000s -> DiskUsageManager -> Install size analysis was executed too recently, skipping execution. 
+2024-08-09T23:52:17.084Z -> Σ:201.531s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded false, Connection State: null"} 
+2024-08-09T23:52:17.741Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:52:17.881Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:53:37.842Z -> Σ:282.289s, Δ:80.758s -> Sentry -> Breadcrumb {"message":"App state changed to active","category":"appState"} 
+2024-08-09T23:53:37.842Z -> Σ:282.289s, Δ:0.000s -> index.native.tsx -> AppState changing from background to active 
+2024-08-09T23:53:37.842Z -> Σ:282.289s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:53:37.842Z -> Σ:282.289s, Δ:0.000s -> GatewaySocket -> .connect() called, new state is WILL_RECONNECT 
+2024-08-09T23:53:37.842Z -> Σ:282.289s, Δ:0.000s -> GatewaySocket -> Setting connection state to WILL_RECONNECT 
+2024-08-09T23:53:37.842Z -> Σ:282.289s, Δ:0.000s -> GatewaySocket -> Setting connection state to CONNECTING 
+2024-08-09T23:53:37.842Z -> Σ:282.289s, Δ:0.000s -> GatewaySocket -> [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: json, version: 9, compression: zstd-stream 
+2024-08-09T23:53:37.844Z -> Σ:282.291s, Δ:0.002s -> ConnectivityStatusStore -> App state updated:  active 
+2024-08-09T23:53:37.845Z -> Σ:282.292s, Δ:0.001s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded true, Connection State: null"} 
+2024-08-09T23:53:37.845Z -> Σ:282.292s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Start Analytics Heartbeat"} 
+2024-08-09T23:53:37.846Z -> Σ:282.292s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"lifecycle","message":"App opened","data":{"openFrom":"launcher"}} 
+2024-08-09T23:53:37.846Z -> Analytics -> app_opened {"device_model":"iPhone","device_brand":"iPhone","device_product":"iPhone14,8","device_manufacturer":"Apple Inc.","device_performance_class":null,"soc_name":"ARM64_T8110","ram_size":5.51,"opened_from":"launcher","load_id":"069f0c4a-b65d-4be3-9b96-fc64a5b643b6","theme":"darker","client_performance_memory":185857.828125,"cpu_core_count":6,"accessibility_features":256,"rendered_locale":"en-GB","uptime_app":282,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:53:37.847Z -> Σ:282.293s, Δ:0.001s -> Sentry -> Breadcrumb {"message":"Heartbeat scheduler- logging app start, checking for correctly scheduled heartbeat in 10s"} 
+2024-08-09T23:53:37.848Z -> Σ:282.295s, Δ:0.002s -> Sentry -> Breadcrumb {"message":"Received Last Heartbeat Event Timestamp. Time Until Next Heartbeat: 618.103 seconds. Scheduling Heartbeat"} 
+2024-08-09T23:53:37.854Z -> Σ:282.301s, Δ:0.006s -> MessageActionCreators -> Fetched 3 messages from the cache after foregrounding. 0 are new 
+2024-08-09T23:53:38.333Z -> Σ:282.780s, Δ:0.479s -> GatewaySocket -> [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=json&v=9&compress=zstd-stream in 491 ms 
+2024-08-09T23:53:38.333Z -> Σ:282.780s, Δ:0.000s -> GatewaySocket -> Setting connection state to RESUMING 
+2024-08-09T23:53:38.333Z -> Σ:282.780s, Δ:0.000s -> GatewaySocket -> [RESUME] resuming session 3c27ae9587000c40845917c96bb8f5d0, seq: 17 
+2024-08-09T23:53:38.334Z -> Σ:282.781s, Δ:0.001s -> GatewaySocket -> [HELLO] via 
+gateway-prd-us-east1-c-bm3h: 0, heartbeat interval: 41250, took 492 ms 
+2024-08-09T23:53:38.486Z -> Σ:282.933s, Δ:0.152s -> GatewaySocket -> 
+gateway-prd-us-east1-c-bm3h: 0.558
+|  id_created: 0
+|  session_lookup_time: 0.244
+|  session_lookup_finished: 0.015
+|  discord-sessions-prd-1-137: 0.025 
+2024-08-09T23:53:38.486Z -> Σ:282.933s, Δ:0.000s -> GatewaySocket -> Setting connection state to SESSION_ESTABLISHED 
+2024-08-09T23:53:38.531Z -> Σ:282.978s, Δ:0.045s -> Flux -> Dispatching CONNECTION_RESUMED 
+2024-08-09T23:53:38.532Z -> Σ:282.979s, Δ:0.001s -> ConnectivityStatusStore -> Connection resumed. 
+2024-08-09T23:53:38.535Z -> Σ:282.982s, Δ:0.003s -> Sentry -> Breadcrumb {"category":"analytics","message":"connection_resumed"} 
+2024-08-09T23:53:38.536Z -> Analytics -> connection_resumed {"connect_time_ms":491,"resume_time_ms":201,"num_events":0,"largest_wait_time_ms":0,"initial_wait_time_ms":0,"total_wait_time_ms":0,"total_dispatch_time_ms":0,"client_performance_cpu":2.536265709526807,"client_performance_memory":189297.828125,"cpu_core_count":6,"accessibility_features":256,"rendered_locale":"en-GB","uptime_app":282,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:53:38.536Z -> Σ:282.983s, Δ:0.001s -> GatewaySocket -> [RESUMED] took 694ms, replayed 0 events, new seq: 18 
+2024-08-09T23:53:40.048Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:53:40.354Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:53:47.814Z -> Network -> Sending POST to https://discord.com/api/v9/metrics/v2 
+2024-08-09T23:53:48.046Z -> Network -> Completed POST to https://discord.com/api/v9/metrics/v2 with status: 204  
+2024-08-09T23:53:54.749Z -> Σ:299.196s, Δ:16.213s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:53:54.750Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:53:56.311Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:53:56.723Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:54:07.305Z -> Σ:311.752s, Δ:12.556s -> Sentry -> Breadcrumb {"category":"analytics","message":"notification_settings_clicked"} 
+2024-08-09T23:54:07.306Z -> Analytics -> notification_settings_clicked 
+2024-08-09T23:54:07.347Z -> Σ:311.794s, Δ:0.042s -> Sentry -> Breadcrumb {"message":"App state changed to inactive","category":"appState"} 
+2024-08-09T23:54:07.347Z -> Σ:311.794s, Δ:0.000s -> index.native.tsx -> AppState changing from active to inactive 
+2024-08-09T23:54:07.347Z -> Σ:311.794s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:54:07.347Z -> Σ:311.794s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded false, Connection State: null"} 
+2024-08-09T23:54:07.348Z -> Σ:311.795s, Δ:0.001s -> Sentry -> Breadcrumb {"message":"Stopping Analytics Heartbeat"} 
+2024-08-09T23:54:07.348Z -> Σ:311.795s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat correctly scheduled. Clearing 10s check timeout"} 
+2024-08-09T23:54:07.348Z -> Σ:311.795s, Δ:0.000s -> Sentry -> Breadcrumb {"category":"analytics","message":"app_background"} 
+2024-08-09T23:54:07.348Z -> Analytics -> app_background 
+2024-08-09T23:54:07.348Z -> Σ:311.795s, Δ:0.000s -> Flux -> Dispatching WRITE_CACHES 
+2024-08-09T23:54:07.348Z -> Σ:311.795s, Δ:0.000s -> GuildBasicChannels -> Starting to write all basic channels 
+2024-08-09T23:54:07.348Z -> Σ:311.795s, Δ:0.000s -> GuildBasicChannels -> 0 basic_channel guilds submitted (took: 0.012542009353637695ms, skipped: 2 guilds) 
+2024-08-09T23:54:07.352Z -> Σ:311.799s, Δ:0.004s -> CacheStore -> Writing cache now 
+2024-08-09T23:54:07.354Z -> Σ:311.801s, Δ:0.002s -> KvBackgroundManager -> performing cleanup (deep: false) 
+2024-08-09T23:54:08.150Z -> Σ:312.597s, Δ:0.796s -> Sentry -> Breadcrumb {"message":"App state changed to background","category":"appState"} 
+2024-08-09T23:54:08.150Z -> Σ:312.597s, Δ:0.000s -> index.native.tsx -> AppState changing from inactive to background 
+2024-08-09T23:54:08.150Z -> Σ:312.597s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:54:08.150Z -> Σ:312.597s, Δ:0.000s -> GatewaySocket -> Closing connection, current state is SESSION_ESTABLISHED 
+2024-08-09T23:54:08.150Z -> Σ:312.597s, Δ:0.000s -> GatewaySocket -> Setting connection state to CLOSED 
+2024-08-09T23:54:08.150Z -> Σ:312.597s, Δ:0.000s -> ConnectivityStatusStore -> App state updated:  background 
+2024-08-09T23:54:08.150Z -> Σ:312.597s, Δ:0.000s -> DiskUsageManager -> Install size analysis was executed too recently, skipping execution. 
+2024-08-09T23:54:08.150Z -> Σ:312.597s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded false, Connection State: null"} 
+2024-08-09T23:54:08.893Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:54:09.113Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:54:12.029Z -> Σ:316.476s, Δ:3.879s -> Sentry -> Breadcrumb {"message":"App state changed to active","category":"appState"} 
+2024-08-09T23:54:12.029Z -> Σ:316.476s, Δ:0.000s -> index.native.tsx -> AppState changing from background to active 
+2024-08-09T23:54:12.029Z -> Σ:316.476s, Δ:0.000s -> Flux -> Dispatching APP_STATE_UPDATE 
+2024-08-09T23:54:12.029Z -> Σ:316.476s, Δ:0.000s -> GatewaySocket -> .connect() called, new state is WILL_RECONNECT 
+2024-08-09T23:54:12.029Z -> Σ:316.476s, Δ:0.000s -> GatewaySocket -> Setting connection state to WILL_RECONNECT 
+2024-08-09T23:54:12.029Z -> Σ:316.476s, Δ:0.000s -> GatewaySocket -> Setting connection state to CONNECTING 
+2024-08-09T23:54:12.029Z -> Σ:316.476s, Δ:0.000s -> GatewaySocket -> [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: json, version: 9, compression: zstd-stream 
+2024-08-09T23:54:12.031Z -> Σ:316.478s, Δ:0.002s -> ConnectivityStatusStore -> App state updated:  active 
+2024-08-09T23:54:12.031Z -> Σ:316.478s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat Track State Parameters Changed. Foregrounded true, Connection State: null"} 
+2024-08-09T23:54:12.031Z -> Σ:316.478s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Start Analytics Heartbeat"} 
+2024-08-09T23:54:12.032Z -> Σ:316.479s, Δ:0.001s -> Sentry -> Breadcrumb {"category":"lifecycle","message":"App opened","data":{"openFrom":"launcher"}} 
+2024-08-09T23:54:12.032Z -> Analytics -> app_opened {"device_model":"iPhone","device_brand":"iPhone","device_product":"iPhone14,8","device_manufacturer":"Apple Inc.","device_performance_class":null,"soc_name":"ARM64_T8110","ram_size":5.51,"opened_from":"launcher","load_id":"069f0c4a-b65d-4be3-9b96-fc64a5b643b6","theme":"darker","client_performance_cpu":0.1052414016407537,"client_performance_memory":188289.828125,"cpu_core_count":6,"accessibility_features":256,"rendered_locale":"en-GB","uptime_app":316,"client_rtc_state":"DISCONNECTED","client_app_state":"active"} 
+2024-08-09T23:54:12.032Z -> Σ:316.479s, Δ:0.000s -> Sentry -> Breadcrumb {"message":"Heartbeat scheduler- logging app start, checking for correctly scheduled heartbeat in 10s"} 
+2024-08-09T23:54:12.033Z -> Σ:316.480s, Δ:0.001s -> Sentry -> Breadcrumb {"message":"Received Last Heartbeat Event Timestamp. Time Until Next Heartbeat: 583.918 seconds. Scheduling Heartbeat"} 
+2024-08-09T23:54:12.034Z -> Σ:316.481s, Δ:0.001s -> MessageActionCreators -> Fetched 3 messages from the cache after foregrounding. 0 are new 
+2024-08-09T23:54:12.429Z -> Σ:316.876s, Δ:0.395s -> GatewaySocket -> [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=json&v=9&compress=zstd-stream in 400 ms 
+2024-08-09T23:54:12.429Z -> Σ:316.876s, Δ:0.000s -> GatewaySocket -> Setting connection state to RESUMING 
+2024-08-09T23:54:12.429Z -> Σ:316.876s, Δ:0.000s -> GatewaySocket -> [RESUME] resuming session 3c27ae9587000c40845917c96bb8f5d0, seq: 18 
+2024-08-09T23:54:12.429Z -> Σ:316.876s, Δ:0.000s -> GatewaySocket -> [HELLO] via 
+gateway-prd-us-east1-c-6vms: 0, heartbeat interval: 41250, took 400 ms 
+2024-08-09T23:54:12.599Z -> Σ:317.046s, Δ:0.170s -> GatewaySocket -> 
+gateway-prd-us-east1-c-6vms: 0.544
+|  id_created: 0
+|  session_lookup_time: 0.219
+|  session_lookup_finished: 0.012
+|  discord-sessions-prd-1-137: 0.027 
+2024-08-09T23:54:12.599Z -> Σ:317.046s, Δ:0.000s -> GatewaySocket -> Setting connection state to SESSION_ESTABLISHED 
+2024-08-09T23:54:12.642Z -> Σ:317.089s, Δ:0.043s -> Flux -> Dispatching CONNECTION_RESUMED 
+2024-08-09T23:54:12.642Z -> Σ:317.089s, Δ:0.000s -> ConnectivityStatusStore -> Connection resumed. 
+2024-08-09T23:54:12.643Z -> Σ:317.090s, Δ:0.001s -> GatewaySocket -> [RESUMED] took 614ms, replayed 0 events, new seq: 19 
+2024-08-09T23:54:13.542Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:54:14.000Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:54:25.994Z -> Σ:330.441s, Δ:13.351s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:54:25.994Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:54:27.555Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:54:27.750Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-09T23:54:34.056Z -> Σ:338.503s, Δ:8.062s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-09T23:54:34.056Z -> Analytics -> settings_pane_viewed 
+2024-08-09T23:54:35.603Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-09T23:54:35.839Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-10T00:01:44.362Z -> Σ:768.807s, Δ:430.304s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-10T00:01:44.363Z -> Analytics -> settings_pane_viewed 
+2024-08-10T00:01:45.907Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-10T00:01:46.138Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
+2024-08-10T00:01:55.390Z -> Σ:779.837s, Δ:11.030s -> Sentry -> Breadcrumb {"category":"analytics","message":"settings_pane_viewed"} 
+2024-08-10T00:01:55.390Z -> Analytics -> settings_pane_viewed 
+2024-08-10T00:01:57.154Z -> Network -> Sending POST to https://discord.com/api/v9/science 
+2024-08-10T00:01:57.502Z -> Network -> Completed POST to https://discord.com/api/v9/science with status: 204  
